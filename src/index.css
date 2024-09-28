@@ -112,3 +112,9 @@ body{
   background-color:aliceblue;
   transition: all 0.2s;
 }
+
+@media (max-width: 600px) {
+  .card{
+  width: 290px;
+  }
+}
