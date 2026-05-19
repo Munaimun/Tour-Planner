@@ -1,0 +1,1541 @@
+[
+  {
+    "slug": "sylhet",
+    "name": "Sylhet",
+    "region": "East",
+    "tagline": "Tea gardens, river blues, and a calm green pace.",
+    "shortDescription": "Sylhet blends misty hills, tea estates, sacred sites, and clear water landscapes into one of Bangladesh's most scenic short-trip destinations. It works equally well for couples, families, and relaxed nature trips.",
+    "heroImage": "https://images.unsplash.com/photo-1504198453319-5ce911bafcde?auto=format&fit=crop&w=1200&q=80",
+    "bannerImage": "https://images.unsplash.com/photo-1504198266285-165a65c4a9f0?auto=format&fit=crop&w=1600&q=80",
+    "bestSeason": {
+      "icon": "🍂",
+      "label": "October – March",
+      "badge": "Autumn / Winter",
+      "note": "Cool mornings, clearer water, and the most comfortable sightseeing weather."
+    },
+    "whyVisit": [
+      "See Ratargul, the famous swamp forest of Bangladesh.",
+      "Mix tea gardens, rivers, waterfalls, and sacred city landmarks in one trip.",
+      "Easy to combine with family-friendly nature stops and peaceful stays.",
+      "Ideal for travelers who want scenic days without intense trekking."
+    ],
+    "tags": ["nature", "tea", "relaxation", "culture", "wildlife", "water", "budget-friendly"],
+    "travelerTypes": ["solo", "couple", "family", "friends", "senior"],
+    "budgetTags": ["budget", "mid-range", "comfort"],
+    "seasonTags": ["winter", "monsoon"],
+    "needsTags": ["child-friendly", "halal", "no-long-walks"],
+    "transportNotes": [
+      "Take a private car or microbus from Sylhet city for an easy first day.",
+      "Use a local CNG or reserved jeep for short transfers around the tea belt.",
+      "Keep water shoes and light snacks handy for the river and wetland stops."
+    ],
+    "baseDayCost": [4200, 5200, 6400, 7100],
+    "keyPlaces": [
+      {
+        "name": "Hazrat Shah Jalal Mazar",
+        "image": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=900&q=80",
+        "description": "Start with Sylhet's spiritual center and the city that grew around it.",
+        "why_visit": ["Historic landmark", "Easy city stop", "Good first-day orientation"],
+        "best_time": "Morning or after Asr",
+        "duration_suggested": "45–60 min",
+        "tips": "Dress modestly, keep the visit calm, and combine it with a tea or snack stop nearby.",
+        "coordinates": { "lat": 24.8943, "lng": 91.8663 }
+      },
+      {
+        "name": "Ratargul Swamp Forest",
+        "image": "https://images.unsplash.com/photo-1526481280698-8fcc13fd7921?auto=format&fit=crop&w=900&q=80",
+        "description": "A floating green maze of freshwater forest paths and canoe rides.",
+        "why_visit": ["Signature Sylhet nature spot", "Boat exploration", "Great monsoon scenery"],
+        "best_time": "Early morning",
+        "duration_suggested": "2–3 hours",
+        "tips": "Go with a local boatman, carry a dry bag, and avoid heavy luggage.",
+        "coordinates": { "lat": 25.0722, "lng": 91.9767 }
+      },
+      {
+        "name": "Jaflong",
+        "image": "https://images.unsplash.com/photo-1500639875490-4f0c20f0f5d2?auto=format&fit=crop&w=900&q=80",
+        "description": "A wide river-and-hills landscape where the Dawki side feels almost painted.",
+        "why_visit": ["Border river views", "Stone and water landscape", "Classic day-trip stop"],
+        "best_time": "Late morning to sunset",
+        "duration_suggested": "2–4 hours",
+        "tips": "Stay for the afternoon light and keep cash ready for small local purchases.",
+        "coordinates": { "lat": 25.1651, "lng": 92.0178 }
+      },
+      {
+        "name": "Lalakhal",
+        "image": "https://images.unsplash.com/photo-1518007532595-18c3f0b3dff8?auto=format&fit=crop&w=900&q=80",
+        "description": "A blue-green river stretch best enjoyed on a slow boat ride.",
+        "why_visit": ["Clear water views", "Relaxed river cruise", "Photogenic in every season"],
+        "best_time": "Midday and golden hour",
+        "duration_suggested": "1.5–2.5 hours",
+        "tips": "Book a small boat in advance if you're traveling on a holiday weekend.",
+        "coordinates": { "lat": 25.0817, "lng": 91.9273 }
+      },
+      {
+        "name": "Bichanakandi",
+        "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=900&q=80",
+        "description": "A cool stream, stone fields, and mountain water flowing through open space.",
+        "why_visit": ["Water and stone scenery", "Easy for photos", "Best after monsoon"],
+        "best_time": "Late morning",
+        "duration_suggested": "2 hours",
+        "tips": "Wear grippy shoes; the stones can get slippery after rain.",
+        "coordinates": { "lat": 25.1524, "lng": 92.0217 }
+      },
+      {
+        "name": "Srimangal Tea Gardens",
+        "image": "https://images.unsplash.com/photo-1517487881594-2787fef5ebf7?auto=format&fit=crop&w=900&q=80",
+        "description": "Tea rows, worker paths, and soft hills that make the countryside feel calm.",
+        "why_visit": ["Tea estate atmosphere", "Easy countryside driving", "Best slow-travel stop"],
+        "best_time": "Morning mist",
+        "duration_suggested": "2–3 hours",
+        "tips": "Add a tea tasting or a local lunch for a better countryside experience.",
+        "coordinates": { "lat": 24.3097, "lng": 91.7339 }
+      },
+      {
+        "name": "Madhabpur Lake",
+        "image": "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=900&q=80",
+        "description": "A calm lake framed by tea gardens and a very easy walking trail.",
+        "why_visit": ["Peaceful finish to a Sylhet circuit", "Great for families", "Soft scenery"],
+        "best_time": "Late afternoon",
+        "duration_suggested": "1–2 hours",
+        "tips": "Keep this as a sunset stop if you want a quiet final evening.",
+        "coordinates": { "lat": 24.2992, "lng": 91.7608 }
+      },
+      {
+        "name": "Hum Hum Waterfall",
+        "image": "https://images.unsplash.com/photo-1439066615861-d1af74d74000?auto=format&fit=crop&w=900&q=80",
+        "description": "A proper adventure detour for travelers ready for a walk in the hills.",
+        "why_visit": ["Adventure feel", "Forest trek", "For active travelers"],
+        "best_time": "Dry season morning",
+        "duration_suggested": "4–6 hours",
+        "tips": "Go with a guide, start early, and expect a real trekking day.",
+        "coordinates": { "lat": 25.1175, "lng": 91.9402 }
+      }
+    ],
+    "packages": [
+      {
+        "slug": "1-2-days",
+        "label": "🗓 1–2 Days",
+        "shortTitle": "Weekend Escape",
+        "summary": "A compact Sylhet break with the city, a river stop, and one tea-country highlight.",
+        "placesCovered": 4,
+        "difficulty": "Easy",
+        "costRange": "৳7,000–৳12,000",
+        "focus": "Best for quick recharge trips and first-time visitors.",
+        "days": [
+          {
+            "title": "Arrival & City Warm-Up",
+            "subtitle": "Hazrat Shah Jalal, Sylhet city, and a relaxed tea-house evening",
+            "transport": "Use a city CNG or reserved car for smooth movement.",
+            "cost": "4,200 BDT",
+            "slots": [
+              {
+                "period": "Morning",
+                "place": {
+                  "name": "Hazrat Shah Jalal Mazar",
+                  "image": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=900&q=80",
+                  "description": "Begin with the spiritual heart of Sylhet and a calm first stop.",
+                  "why_visit": ["Historic landmark", "Easy city stop", "Local context"],
+                  "best_time": "Morning",
+                  "duration_suggested": "45–60 min",
+                  "tips": "Keep the visit respectful and combine it with nearby food stops.",
+                  "coordinates": { "lat": 24.8943, "lng": 91.8663 }
+                }
+              },
+              {
+                "period": "Afternoon",
+                "place": {
+                  "name": "Lalakhal",
+                  "image": "https://images.unsplash.com/photo-1518007532595-18c3f0b3dff8?auto=format&fit=crop&w=900&q=80",
+                  "description": "A blue-green river stretch best enjoyed on a slow boat ride.",
+                  "why_visit": ["River cruise", "Photogenic water", "Relaxed pace"],
+                  "best_time": "Afternoon",
+                  "duration_suggested": "1.5–2.5 hours",
+                  "tips": "Book a small boat in advance if it's a busy day.",
+                  "coordinates": { "lat": 25.0817, "lng": 91.9273 }
+                }
+              },
+              {
+                "period": "Evening",
+                "place": {
+                  "name": "Sylhet City Food Walk",
+                  "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=900&q=80",
+                  "description": "Local snacks and a gentle evening around the city center.",
+                  "why_visit": ["Food stop", "Easy walking", "Low effort end to the day"],
+                  "best_time": "Evening",
+                  "duration_suggested": "1–2 hours",
+                  "tips": "Try local tea and keep the pace slow after a long travel day.",
+                  "coordinates": { "lat": 24.8948, "lng": 91.8682 }
+                }
+              }
+            ]
+          },
+          {
+            "title": "Water & Tea Country",
+            "subtitle": "Ratargul, Jaflong, and a soft countryside finish",
+            "transport": "Leave early for wetland and border-river views.",
+            "cost": "5,000 BDT",
+            "slots": [
+              {
+                "period": "Morning",
+                "place": {
+                  "name": "Ratargul Swamp Forest",
+                  "image": "https://images.unsplash.com/photo-1526481280698-8fcc13fd7921?auto=format&fit=crop&w=900&q=80",
+                  "description": "A floating green forest of water, roots, and boat paths.",
+                  "why_visit": ["Swamp forest", "Boat ride", "Top nature stop"],
+                  "best_time": "Early morning",
+                  "duration_suggested": "2–3 hours",
+                  "tips": "Carry a dry bag and keep your camera protected from splashes.",
+                  "coordinates": { "lat": 25.0722, "lng": 91.9767 }
+                }
+              },
+              {
+                "period": "Afternoon",
+                "place": {
+                  "name": "Jaflong",
+                  "image": "https://images.unsplash.com/photo-1500639875490-4f0c20f0f5d2?auto=format&fit=crop&w=900&q=80",
+                  "description": "A wide open river-and-hills panorama with lots of room to slow down.",
+                  "why_visit": ["Big scenic views", "Border river landscape", "Classic Sylhet day trip"],
+                  "best_time": "Midday",
+                  "duration_suggested": "2–4 hours",
+                  "tips": "Stay until the light softens for the best photos.",
+                  "coordinates": { "lat": 25.1651, "lng": 92.0178 }
+                }
+              },
+              {
+                "period": "Evening",
+                "place": {
+                  "name": "Madhabpur Lake",
+                  "image": "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=900&q=80",
+                  "description": "A quiet lake stop with enough calm to end the day slowly.",
+                  "why_visit": ["Quiet scenery", "Family-friendly", "Great sunset stop"],
+                  "best_time": "Late afternoon",
+                  "duration_suggested": "1–2 hours",
+                  "tips": "Keep this stop for the last light and avoid rushing it.",
+                  "coordinates": { "lat": 24.2992, "lng": 91.7608 }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "3-4-days",
+        "label": "🗓 3–4 Days",
+        "shortTitle": "Short Getaway",
+        "summary": "The best balanced Sylhet trip with city, water, tea gardens, and a trekking option.",
+        "placesCovered": 7,
+        "difficulty": "Moderate",
+        "costRange": "৳12,000–৳24,000",
+        "focus": "For travelers who want Sylhet's full scenic variety.",
+        "days": [
+          {
+            "title": "Day 1 – Arrival & Tea Gardens",
+            "subtitle": "Sylhet city introduction and a soft tea-country start",
+            "transport": "Use a reserved car from the city center for an easy first day.",
+            "cost": "5,200 BDT",
+            "slots": [
+              {
+                "period": "Morning",
+                "place": {
+                  "name": "Hazrat Shah Jalal Mazar",
+                  "image": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=900&q=80",
+                  "description": "A peaceful city start with history and local context.",
+                  "why_visit": ["Historic landmark", "Easy first stop", "Cultural orientation"],
+                  "best_time": "Morning",
+                  "duration_suggested": "45–60 min",
+                  "tips": "Visit respectfully and keep the first hour unhurried.",
+                  "coordinates": { "lat": 24.8943, "lng": 91.8663 }
+                }
+              },
+              {
+                "period": "Afternoon",
+                "place": {
+                  "name": "Srimangal Tea Gardens",
+                  "image": "https://images.unsplash.com/photo-1517487881594-2787fef5ebf7?auto=format&fit=crop&w=900&q=80",
+                  "description": "Rows of tea plants and soft green hills make the countryside feel easy.",
+                  "why_visit": ["Tea estate atmosphere", "Calm scenery", "Great lunch break"],
+                  "best_time": "Morning to afternoon",
+                  "duration_suggested": "2–3 hours",
+                  "tips": "Pair it with tea tasting or a local lunch.",
+                  "coordinates": { "lat": 24.3097, "lng": 91.7339 }
+                }
+              },
+              {
+                "period": "Evening",
+                "place": {
+                  "name": "Madhabpur Lake",
+                  "image": "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=900&q=80",
+                  "description": "A still lake with an easy walking loop and soft sunset light.",
+                  "why_visit": ["Quiet finish", "Easy walk", "Family-friendly"],
+                  "best_time": "Late afternoon",
+                  "duration_suggested": "1–2 hours",
+                  "tips": "Stay for golden hour if the weather is clear.",
+                  "coordinates": { "lat": 24.2992, "lng": 91.7608 }
+                }
+              }
+            ]
+          },
+          {
+            "title": "Day 2 – Swamp Forest & Water",
+            "subtitle": "Ratargul and river landscapes at a slower pace",
+            "transport": "Leave very early to keep the wetland timing comfortable.",
+            "cost": "6,100 BDT",
+            "slots": [
+              {
+                "period": "Morning",
+                "place": {
+                  "name": "Ratargul Swamp Forest",
+                  "image": "https://images.unsplash.com/photo-1526481280698-8fcc13fd7921?auto=format&fit=crop&w=900&q=80",
+                  "description": "Boat through the flooded forest and hear the wetlands instead of traffic.",
+                  "why_visit": ["Top eco-stop", "Boat exploration", "Unique Bangladesh scenery"],
+                  "best_time": "Morning",
+                  "duration_suggested": "2–3 hours",
+                  "tips": "Bring a dry bag, insect spray, and extra patience for the boat ride.",
+                  "coordinates": { "lat": 25.0722, "lng": 91.9767 }
+                }
+              },
+              {
+                "period": "Afternoon",
+                "place": {
+                  "name": "Lalakhal",
+                  "image": "https://images.unsplash.com/photo-1518007532595-18c3f0b3dff8?auto=format&fit=crop&w=900&q=80",
+                  "description": "A blue-green river stretch perfect for a relaxed boat cruise.",
+                  "why_visit": ["Water cruise", "Easy motion", "Soft scenic break"],
+                  "best_time": "Afternoon",
+                  "duration_suggested": "1.5–2.5 hours",
+                  "tips": "Reserve a small boat if you are visiting on a holiday.",
+                  "coordinates": { "lat": 25.0817, "lng": 91.9273 }
+                }
+              },
+              {
+                "period": "Evening",
+                "place": {
+                  "name": "Bichanakandi",
+                  "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=900&q=80",
+                  "description": "Stone fields and shallow water create one of Sylhet's most photogenic spots.",
+                  "why_visit": ["Beautiful water-and-stone texture", "Great photos", "Easy to pair with river stops"],
+                  "best_time": "Late afternoon",
+                  "duration_suggested": "2 hours",
+                  "tips": "Wear shoes with grip because the stones can be slippery.",
+                  "coordinates": { "lat": 25.1524, "lng": 92.0217 }
+                }
+              }
+            ]
+          },
+          {
+            "title": "Day 3 – Border Views & Scenic Finish",
+            "subtitle": "Jaflong, Hum Hum option, and a slower evening return",
+            "transport": "A hired car or jeep works best for this longer scenic day.",
+            "cost": "6,400 BDT",
+            "slots": [
+              {
+                "period": "Morning",
+                "place": {
+                  "name": "Jaflong",
+                  "image": "https://images.unsplash.com/photo-1500639875490-4f0c20f0f5d2?auto=format&fit=crop&w=900&q=80",
+                  "description": "Open river edges, soft hills, and a classic Sylhet vista.",
+                  "why_visit": ["Iconic river view", "Border scenery", "Open-space feel"],
+                  "best_time": "Morning",
+                  "duration_suggested": "2–4 hours",
+                  "tips": "Try to arrive before the crowds build.",
+                  "coordinates": { "lat": 25.1651, "lng": 92.0178 }
+                }
+              },
+              {
+                "period": "Afternoon",
+                "place": {
+                  "name": "Hum Hum Waterfall",
+                  "image": "https://images.unsplash.com/photo-1439066615861-d1af74d74000?auto=format&fit=crop&w=900&q=80",
+                  "description": "A trekking-heavy waterfall option for travelers who want a little adventure.",
+                  "why_visit": ["Adventure trek", "Forest air", "Different from the usual city route"],
+                  "best_time": "Dry season morning",
+                  "duration_suggested": "4–6 hours",
+                  "tips": "Use a guide and start early; this is the most demanding stop in the region.",
+                  "coordinates": { "lat": 25.1175, "lng": 91.9402 }
+                }
+              },
+              {
+                "period": "Evening",
+                "place": {
+                  "name": "Sylhet City Food Walk",
+                  "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=900&q=80",
+                  "description": "Return to the city for dinner, tea, and a gentle wind-down.",
+                  "why_visit": ["Comfort food", "Easy end to the trip", "Local flavor"],
+                  "best_time": "Evening",
+                  "duration_suggested": "1–2 hours",
+                  "tips": "Use this as your flex evening if the waterfall leg takes longer.",
+                  "coordinates": { "lat": 24.8948, "lng": 91.8682 }
+                }
+              }
+            ]
+          },
+          {
+            "title": "Day 4 – Quiet Lake Loop",
+            "subtitle": "A calm final day with tea-country air and slow exits",
+            "transport": "Keep the day light if you have an evening bus or flight.",
+            "cost": "5,000 BDT",
+            "slots": [
+              {
+                "period": "Morning",
+                "place": {
+                  "name": "Madhabpur Lake",
+                  "image": "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=900&q=80",
+                  "description": "A simple and peaceful final stop in the tea belt.",
+                  "why_visit": ["Restful morning", "Low effort", "Photogenic"],
+                  "best_time": "Morning",
+                  "duration_suggested": "1–2 hours",
+                  "tips": "This works well as the final stop before heading back.",
+                  "coordinates": { "lat": 24.2992, "lng": 91.7608 }
+                }
+              },
+              {
+                "period": "Afternoon",
+                "place": {
+                  "name": "Bichanakandi",
+                  "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=900&q=80",
+                  "description": "One more water-and-stone panorama before you leave Sylhet.",
+                  "why_visit": ["Relaxed final scenic stop", "Good for photos", "Easy to fit into a return day"],
+                  "best_time": "Afternoon",
+                  "duration_suggested": "2 hours",
+                  "tips": "Keep transport arranged in advance so you can leave on time.",
+                  "coordinates": { "lat": 25.1524, "lng": 92.0217 }
+                }
+              },
+              {
+                "period": "Evening",
+                "place": {
+                  "name": "Hazrat Shah Jalal Mazar",
+                  "image": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=900&q=80",
+                  "description": "Return to the city for a short final visit before departure.",
+                  "why_visit": ["Close the trip calmly", "City convenience", "Simple last stop"],
+                  "best_time": "Evening",
+                  "duration_suggested": "30–45 min",
+                  "tips": "Use the remaining time for tea and packing, not extra sightseeing.",
+                  "coordinates": { "lat": 24.8943, "lng": 91.8663 }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "7-days",
+        "label": "🗓 7 Days",
+        "shortTitle": "Full Explorer",
+        "summary": "A full Sylhet circuit that stretches from tea gardens to waterfalls and slower heritage stops.",
+        "placesCovered": 8,
+        "difficulty": "Moderate",
+        "costRange": "৳18,000–৳38,000",
+        "focus": "For travelers who want the region without rushing.",
+        "days": [
+          {
+            "title": "Day 1 – City Arrival",
+            "subtitle": "City orientation and an easy start",
+            "transport": "Use a reserved car for a comfortable arrival day.",
+            "cost": "4,200 BDT",
+            "slots": [
+              {
+                "period": "Morning",
+                "place": {
+                  "name": "Hazrat Shah Jalal Mazar",
+                  "image": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=900&q=80",
+                  "description": "A calm opening stop and a cultural anchor point.",
+                  "why_visit": ["Historic", "Relaxed", "Easy orientation"],
+                  "best_time": "Morning",
+                  "duration_suggested": "45–60 min",
+                  "tips": "Start slow and keep the day light after traveling in.",
+                  "coordinates": { "lat": 24.8943, "lng": 91.8663 }
+                }
+              },
+              {
+                "period": "Afternoon",
+                "place": {
+                  "name": "Sylhet City Food Walk",
+                  "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=900&q=80",
+                  "description": "Try a few easy local dishes and settle into the pace.",
+                  "why_visit": ["Food", "Low effort", "Local flavor"],
+                  "best_time": "Afternoon",
+                  "duration_suggested": "1–2 hours",
+                  "tips": "Do not overbook day one; leave room for rest.",
+                  "coordinates": { "lat": 24.8948, "lng": 91.8682 }
+                }
+              },
+              {
+                "period": "Evening",
+                "place": {
+                  "name": "Madhabpur Lake",
+                  "image": "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=900&q=80",
+                  "description": "Close the day with a peaceful lake view.",
+                  "why_visit": ["Peace", "Sunset", "Family-friendly"],
+                  "best_time": "Late afternoon",
+                  "duration_suggested": "1–2 hours",
+                  "tips": "Use this as a soft intro before longer day trips.",
+                  "coordinates": { "lat": 24.2992, "lng": 91.7608 }
+                }
+              }
+            ]
+          },
+          {
+            "title": "Day 2 – Tea Country",
+            "subtitle": "Tea gardens, gentle hills, and tea tasting",
+            "transport": "Drive toward Srimangal and keep a slow countryside pace.",
+            "cost": "5,600 BDT",
+            "slots": [
+              {
+                "period": "Morning",
+                "place": {
+                  "name": "Srimangal Tea Gardens",
+                  "image": "https://images.unsplash.com/photo-1517487881594-2787fef5ebf7?auto=format&fit=crop&w=900&q=80",
+                  "description": "Long tea rows and soft hill contours define the region.",
+                  "why_visit": ["Tea landscapes", "Countryside calm", "Photo-friendly"],
+                  "best_time": "Morning",
+                  "duration_suggested": "2–3 hours",
+                  "tips": "Leave time for tea tasting or a local breakfast.",
+                  "coordinates": { "lat": 24.3097, "lng": 91.7339 }
+                }
+              },
+              {
+                "period": "Afternoon",
+                "place": {
+                  "name": "Lalakhal",
+                  "image": "https://images.unsplash.com/photo-1518007532595-18c3f0b3dff8?auto=format&fit=crop&w=900&q=80",
+                  "description": "A scenic boat stretch with clear blue-green water.",
+                  "why_visit": ["River cruise", "Calm movement", "Easy to enjoy"],
+                  "best_time": "Afternoon",
+                  "duration_suggested": "1.5–2.5 hours",
+                  "tips": "Bring sun protection even on cooler days.",
+                  "coordinates": { "lat": 25.0817, "lng": 91.9273 }
+                }
+              },
+              {
+                "period": "Evening",
+                "place": {
+                  "name": "Madhabpur Lake",
+                  "image": "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=900&q=80",
+                  "description": "A sunset finish that keeps the day from feeling rushed.",
+                  "why_visit": ["Soft ending", "Peaceful vibe", "Good for couples"],
+                  "best_time": "Evening",
+                  "duration_suggested": "1–2 hours",
+                  "tips": "If weather turns, use a tea-house stop instead.",
+                  "coordinates": { "lat": 24.2992, "lng": 91.7608 }
+                }
+              }
+            ]
+          },
+          {
+            "title": "Day 3 – Wetlands",
+            "subtitle": "Ratargul and nearby water routes",
+            "transport": "Use an early driver and keep the day boat-focused.",
+            "cost": "6,100 BDT",
+            "slots": [
+              {
+                "period": "Morning",
+                "place": {
+                  "name": "Ratargul Swamp Forest",
+                  "image": "https://images.unsplash.com/photo-1526481280698-8fcc13fd7921?auto=format&fit=crop&w=900&q=80",
+                  "description": "The most distinctive wetland landscape in the region.",
+                  "why_visit": ["Eco adventure", "Boating", "Signature location"],
+                  "best_time": "Morning",
+                  "duration_suggested": "2–3 hours",
+                  "tips": "Keep valuables dry and leave enough time for the return drive.",
+                  "coordinates": { "lat": 25.0722, "lng": 91.9767 }
+                }
+              },
+              {
+                "period": "Afternoon",
+                "place": {
+                  "name": "Bichanakandi",
+                  "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=900&q=80",
+                  "description": "A shallow water-and-stone platform that feels like a natural terrace.",
+                  "why_visit": ["Water texture", "Relaxed walking", "Great photos"],
+                  "best_time": "Afternoon",
+                  "duration_suggested": "2 hours",
+                  "tips": "Avoid rushing the walking section if the stones are wet.",
+                  "coordinates": { "lat": 25.1524, "lng": 92.0217 }
+                }
+              },
+              {
+                "period": "Evening",
+                "place": {
+                  "name": "Sylhet Riverfront",
+                  "image": "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?auto=format&fit=crop&w=900&q=80",
+                  "description": "A simple city wrap-up after a boat-heavy day.",
+                  "why_visit": ["Easy finish", "City comfort", "Dinner stop"],
+                  "best_time": "Evening",
+                  "duration_suggested": "1 hour",
+                  "tips": "Keep dinner plans flexible because the boat segment can run late.",
+                  "coordinates": { "lat": 24.8949, "lng": 91.8688 }
+                }
+              }
+            ]
+          },
+          {
+            "title": "Day 4 – Border Views",
+            "subtitle": "Jaflong, open river, and sunset reflections",
+            "transport": "Reserve a jeep or car for the longer scenic route.",
+            "cost": "6,300 BDT",
+            "slots": [
+              {
+                "period": "Morning",
+                "place": {
+                  "name": "Jaflong",
+                  "image": "https://images.unsplash.com/photo-1500639875490-4f0c20f0f5d2?auto=format&fit=crop&w=900&q=80",
+                  "description": "Open river views with hills in the distance.",
+                  "why_visit": ["Classic Sylhet view", "Border river scenery", "Open horizon"],
+                  "best_time": "Morning",
+                  "duration_suggested": "2–4 hours",
+                  "tips": "Move around the river edge slowly and stop for lunch nearby.",
+                  "coordinates": { "lat": 25.1651, "lng": 92.0178 }
+                }
+              },
+              {
+                "period": "Afternoon",
+                "place": {
+                  "name": "Lalakhal",
+                  "image": "https://images.unsplash.com/photo-1518007532595-18c3f0b3dff8?auto=format&fit=crop&w=900&q=80",
+                  "description": "A second river stop to keep the day relaxed rather than packed.",
+                  "why_visit": ["River contrast", "Calm cruise", "Soft pace"],
+                  "best_time": "Afternoon",
+                  "duration_suggested": "1.5–2 hours",
+                  "tips": "This works especially well if you want an unhurried day.",
+                  "coordinates": { "lat": 25.0817, "lng": 91.9273 }
+                }
+              },
+              {
+                "period": "Evening",
+                "place": {
+                  "name": "Madhabpur Lake",
+                  "image": "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=900&q=80",
+                  "description": "Let the day end with a calm and easy lake view.",
+                  "why_visit": ["Sunset", "Quiet scenery", "No effort finish"],
+                  "best_time": "Evening",
+                  "duration_suggested": "1–2 hours",
+                  "tips": "If the weather is cloudy, use the stop simply as a rest break.",
+                  "coordinates": { "lat": 24.2992, "lng": 91.7608 }
+                }
+              }
+            ]
+          },
+          {
+            "title": "Day 5 – Trek Option",
+            "subtitle": "Hum Hum Waterfall for active travelers",
+            "transport": "Only do the trek if the weather and fitness level make sense.",
+            "cost": "6,900 BDT",
+            "slots": [
+              {
+                "period": "Morning",
+                "place": {
+                  "name": "Hum Hum Waterfall",
+                  "image": "https://images.unsplash.com/photo-1439066615861-d1af74d74000?auto=format&fit=crop&w=900&q=80",
+                  "description": "A real hiking day with forest trail energy and a waterfall finish.",
+                  "why_visit": ["Adventure trek", "Forest immersion", "Different from easy sightseeing"],
+                  "best_time": "Dry season morning",
+                  "duration_suggested": "4–6 hours",
+                  "tips": "Carry water, walk with a guide, and respect the trek time.",
+                  "coordinates": { "lat": 25.1175, "lng": 91.9402 }
+                }
+              },
+              {
+                "period": "Afternoon",
+                "place": {
+                  "name": "Tea Estate Rest Stop",
+                  "image": "https://images.unsplash.com/photo-1517487881594-2787fef5ebf7?auto=format&fit=crop&w=900&q=80",
+                  "description": "An easy tea stop after the trek to recover slowly.",
+                  "why_visit": ["Recovery", "Tea scenery", "Low effort"],
+                  "best_time": "Afternoon",
+                  "duration_suggested": "1–2 hours",
+                  "tips": "Keep the rest of the day light after trekking.",
+                  "coordinates": { "lat": 24.3097, "lng": 91.7339 }
+                }
+              },
+              {
+                "period": "Evening",
+                "place": {
+                  "name": "Sylhet City Dinner",
+                  "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=900&q=80",
+                  "description": "A good meal helps the day settle down after a trek.",
+                  "why_visit": ["Comfort food", "Easy final stop", "Local flavor"],
+                  "best_time": "Evening",
+                  "duration_suggested": "1–2 hours",
+                  "tips": "Book an early dinner because this day is physically heavier.",
+                  "coordinates": { "lat": 24.8948, "lng": 91.8682 }
+                }
+              }
+            ]
+          },
+          {
+            "title": "Day 6 – Quiet Countryside",
+            "subtitle": "Tea gardens and an easy low-stress day",
+            "transport": "Keep the pace flexible and avoid over-scheduling.",
+            "cost": "5,500 BDT",
+            "slots": [
+              {
+                "period": "Morning",
+                "place": {
+                  "name": "Srimangal Tea Gardens",
+                  "image": "https://images.unsplash.com/photo-1517487881594-2787fef5ebf7?auto=format&fit=crop&w=900&q=80",
+                  "description": "Go back to tea country for a slow and scenic countryside day.",
+                  "why_visit": ["Tea countryside", "Morning mist", "Gentle walk"],
+                  "best_time": "Morning",
+                  "duration_suggested": "2–3 hours",
+                  "tips": "This is a good day to breathe and not chase too many points.",
+                  "coordinates": { "lat": 24.3097, "lng": 91.7339 }
+                }
+              },
+              {
+                "period": "Afternoon",
+                "place": {
+                  "name": "Madhabpur Lake",
+                  "image": "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=900&q=80",
+                  "description": "A slow lake loop that keeps the mood relaxed.",
+                  "why_visit": ["Relaxation", "Easy walking", "Good for families"],
+                  "best_time": "Afternoon",
+                  "duration_suggested": "1–2 hours",
+                  "tips": "Pack tea and snacks if you're planning a picnic-style break.",
+                  "coordinates": { "lat": 24.2992, "lng": 91.7608 }
+                }
+              },
+              {
+                "period": "Evening",
+                "place": {
+                  "name": "Lalakhal",
+                  "image": "https://images.unsplash.com/photo-1518007532595-18c3f0b3dff8?auto=format&fit=crop&w=900&q=80",
+                  "description": "End with a river return when the light is softer.",
+                  "why_visit": ["Peaceful finish", "Boat ride", "Scenic light"],
+                  "best_time": "Evening",
+                  "duration_suggested": "1.5 hours",
+                  "tips": "This day is intentionally slower than the others.",
+                  "coordinates": { "lat": 25.0817, "lng": 91.9273 }
+                }
+              }
+            ]
+          },
+          {
+            "title": "Day 7 – Departure Buffer",
+            "subtitle": "Last breakfast, final views, and an easy exit",
+            "transport": "Keep one simple last stop and then leave with buffer time.",
+            "cost": "4,800 BDT",
+            "slots": [
+              {
+                "period": "Morning",
+                "place": {
+                  "name": "Hazrat Shah Jalal Mazar",
+                  "image": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=900&q=80",
+                  "description": "A gentle final city visit before leaving Sylhet.",
+                  "why_visit": ["Closing stop", "Local context", "Easy logistics"],
+                  "best_time": "Morning",
+                  "duration_suggested": "30–45 min",
+                  "tips": "Do this only if your departure time leaves enough room.",
+                  "coordinates": { "lat": 24.8943, "lng": 91.8663 }
+                }
+              },
+              {
+                "period": "Afternoon",
+                "place": {
+                  "name": "Sylhet City Food Walk",
+                  "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=900&q=80",
+                  "description": "One last food stop before you head home.",
+                  "why_visit": ["Food", "Easy stop", "Departure-friendly"],
+                  "best_time": "Afternoon",
+                  "duration_suggested": "1–2 hours",
+                  "tips": "Avoid a heavy lunch if you still have a long road journey.",
+                  "coordinates": { "lat": 24.8948, "lng": 91.8682 }
+                }
+              },
+              {
+                "period": "Evening",
+                "place": {
+                  "name": "Departure",
+                  "image": "https://images.unsplash.com/photo-1481959452982-d4ae9e8e4a1d?auto=format&fit=crop&w=900&q=80",
+                  "description": "Leave with enough margin so the trip ends smoothly.",
+                  "why_visit": ["Buffer time", "No rush", "Trip closure"],
+                  "best_time": "Evening",
+                  "duration_suggested": "Flexible",
+                  "tips": "Pack earlier than usual; this day should feel calm rather than packed.",
+                  "coordinates": { "lat": 24.8971, "lng": 91.8626 }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "coxs-bazar",
+    "name": "Cox's Bazar",
+    "region": "South",
+    "tagline": "Long beaches, sea air, and an easy holiday rhythm.",
+    "shortDescription": "Cox's Bazar is Bangladesh's signature beach destination, blending long shoreline walks with cliff views, food stops, and the option to extend toward Saint Martin's Island.",
+    "heroImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+    "bannerImage": "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=1600&q=80",
+    "bestSeason": {
+      "icon": "☀️",
+      "label": "November – February",
+      "badge": "Winter Beach Season",
+      "note": "Clear skies, calmer sea days, and the most comfortable beach weather."
+    },
+    "whyVisit": [
+      "Walk along the world's longest natural sea beach.",
+      "Blend beaches, cliffs, and local seafood in one easy trip.",
+      "Great for families, couples, and friends who want a coastal break.",
+      "A natural fit for day trips and longer sea-focused itineraries."
+    ],
+    "tags": ["beach", "water", "relaxation", "city", "family", "winter", "food"],
+    "travelerTypes": ["solo", "couple", "family", "friends"],
+    "budgetTags": ["budget", "mid-range", "comfort"],
+    "seasonTags": ["winter", "summer"],
+    "needsTags": ["child-friendly", "halal", "no-long-walks"],
+    "transportNotes": [
+      "Use a local auto-rickshaw or reserved car for beach-to-beach movement.",
+      "Start early to avoid heat and to keep beach walks comfortable.",
+      "Keep a flexible end-of-day plan because sunsets can change the pace."
+    ],
+    "baseDayCost": [4500, 5800, 6900, 7600],
+    "keyPlaces": [
+      {
+        "name": "Cox's Bazar Beach",
+        "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=900&q=80",
+        "description": "The main shoreline where long walks and simple sea views do the heavy lifting.",
+        "why_visit": ["Main beach", "Sunrise and sunset walks", "Relaxed first stop"],
+        "best_time": "Sunrise or sunset",
+        "duration_suggested": "2–3 hours",
+        "tips": "The beach is best when you keep the plan intentionally simple.",
+        "coordinates": { "lat": 21.4272, "lng": 92.0058 }
+      },
+      {
+        "name": "Laboni Point",
+        "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=900&q=80",
+        "description": "A busy central stretch for people-watching, snacks, and quick beach access.",
+        "why_visit": ["Central access", "Local energy", "Easy evening stop"],
+        "best_time": "Late afternoon",
+        "duration_suggested": "1–2 hours",
+        "tips": "Use it as a practical beach hub rather than a long stop.",
+        "coordinates": { "lat": 21.4269, "lng": 92.0064 }
+      },
+      {
+        "name": "Himchhari",
+        "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=900&q=80",
+        "description": "A hill-and-sea stop with views that break up the long beach stretch.",
+        "why_visit": ["Cliff views", "Sea and hill combo", "Nice road-trip stop"],
+        "best_time": "Morning to afternoon",
+        "duration_suggested": "1.5–2.5 hours",
+        "tips": "Keep the climb light if you're traveling with kids or seniors.",
+        "coordinates": { "lat": 21.4487, "lng": 92.0226 }
+      },
+      {
+        "name": "Inani Beach",
+        "image": "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=900&q=80",
+        "description": "A quieter beach segment known for stones, calm water, and a softer pace.",
+        "why_visit": ["Quieter than Laboni", "Beach texture", "Good for slower trips"],
+        "best_time": "Late morning to sunset",
+        "duration_suggested": "2 hours",
+        "tips": "Bring water and keep an eye on the tide line.",
+        "coordinates": { "lat": 21.3635, "lng": 92.0679 }
+      },
+      {
+        "name": "Ramu Buddhist Temple",
+        "image": "https://images.unsplash.com/photo-1514221708779-4071a26c6d6d?auto=format&fit=crop&w=900&q=80",
+        "description": "A cultural stop that adds heritage and calm to a sea-heavy itinerary.",
+        "why_visit": ["Culture break", "Peaceful stop", "Easy half-day addition"],
+        "best_time": "Morning",
+        "duration_suggested": "45–75 min",
+        "tips": "Dress respectfully and combine it with a return-drive stop.",
+        "coordinates": { "lat": 21.4389, "lng": 92.1678 }
+      },
+      {
+        "name": "Saint Martin's Island",
+        "image": "https://images.unsplash.com/photo-1500375592092-2b1f0f3c0b1a?auto=format&fit=crop&w=900&q=80",
+        "description": "A coral-island day trip option for travelers who want a longer sea extension.",
+        "why_visit": ["Island add-on", "Crystal-clear sea mood", "Longer beach holiday"],
+        "best_time": "Dry season only",
+        "duration_suggested": "Full day",
+        "tips": "Mention it as a day-trip option and confirm sea conditions before booking.",
+        "coordinates": { "lat": 20.6021, "lng": 92.3228 }
+      }
+    ],
+    "packages": [
+      {
+        "slug": "1-2-days",
+        "label": "🗓 1–2 Days",
+        "shortTitle": "Weekend Escape",
+        "summary": "A beach-first Cox's Bazar break with easy shoreline time and one scenic side trip.",
+        "placesCovered": 4,
+        "difficulty": "Easy",
+        "costRange": "৳8,000–৳14,000",
+        "focus": "Perfect for a short sea holiday.",
+        "days": [
+          {
+            "title": "Arrival & Beach Walk",
+            "subtitle": "Laboni Point and sunset on the main beach",
+            "transport": "Keep the first day close to the beach belt.",
+            "cost": "4,500 BDT",
+            "slots": [
+              {
+                "period": "Morning",
+                "place": {
+                  "name": "Cox's Bazar Beach",
+                  "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=900&q=80",
+                  "description": "Start with a long shoreline walk to set the tone.",
+                  "why_visit": ["Main beach", "Easy start", "Sea air"],
+                  "best_time": "Morning",
+                  "duration_suggested": "2 hours",
+                  "tips": "Do the longest walk before the heat rises.",
+                  "coordinates": { "lat": 21.4272, "lng": 92.0058 }
+                }
+              },
+              {
+                "period": "Afternoon",
+                "place": {
+                  "name": "Laboni Point",
+                  "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=900&q=80",
+                  "description": "A practical center point for lunch, snacks, and beach access.",
+                  "why_visit": ["Food and access", "Central vibe", "Easy moving point"],
+                  "best_time": "Afternoon",
+                  "duration_suggested": "1–2 hours",
+                  "tips": "Do not spend too long in the busiest zone if you want a calmer trip.",
+                  "coordinates": { "lat": 21.4269, "lng": 92.0064 }
+                }
+              },
+              {
+                "period": "Evening",
+                "place": {
+                  "name": "Beach Sunset",
+                  "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=900&q=80",
+                  "description": "The simple joy of a sea sunset is enough for day one.",
+                  "why_visit": ["Golden hour", "Relaxed mood", "Easy to enjoy"],
+                  "best_time": "Sunset",
+                  "duration_suggested": "1–2 hours",
+                  "tips": "Stay close to your hotel after dark if you have an early day tomorrow.",
+                  "coordinates": { "lat": 21.4272, "lng": 92.0058 }
+                }
+              }
+            ]
+          },
+          {
+            "title": "Cliff & Culture",
+            "subtitle": "Himchhari and Ramu for a more rounded coastal day",
+            "transport": "A reserved car keeps the second day efficient and comfortable.",
+            "cost": "5,800 BDT",
+            "slots": [
+              {
+                "period": "Morning",
+                "place": {
+                  "name": "Himchhari",
+                  "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=900&q=80",
+                  "description": "Sea and hill views make this a neat change of scenery.",
+                  "why_visit": ["Cliff views", "Short stop", "Road-trip feel"],
+                  "best_time": "Morning",
+                  "duration_suggested": "1.5–2.5 hours",
+                  "tips": "Keep the climb light if you are with children or older travelers.",
+                  "coordinates": { "lat": 21.4487, "lng": 92.0226 }
+                }
+              },
+              {
+                "period": "Afternoon",
+                "place": {
+                  "name": "Ramu Buddhist Temple",
+                  "image": "https://images.unsplash.com/photo-1514221708779-4071a26c6d6d?auto=format&fit=crop&w=900&q=80",
+                  "description": "A calm culture stop that balances the beach-heavy plan.",
+                  "why_visit": ["Heritage", "Quiet stop", "Easy cultural add-on"],
+                  "best_time": "Afternoon",
+                  "duration_suggested": "45–75 min",
+                  "tips": "Dress respectfully and keep the visit brief and calm.",
+                  "coordinates": { "lat": 21.4389, "lng": 92.1678 }
+                }
+              },
+              {
+                "period": "Evening",
+                "place": {
+                  "name": "Inani Beach",
+                  "image": "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=900&q=80",
+                  "description": "A quieter shore for a gentler finish to the trip.",
+                  "why_visit": ["Quieter beach", "Relaxed closing stop", "Nice for photos"],
+                  "best_time": "Evening",
+                  "duration_suggested": "2 hours",
+                  "tips": "Check the tide line before going too close to the water.",
+                  "coordinates": { "lat": 21.3635, "lng": 92.0679 }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "3-4-days",
+        "label": "🗓 3–4 Days",
+        "shortTitle": "Short Getaway",
+        "summary": "A well-balanced coastal stay with beach time, cliff views, and a Saint Martin's option.",
+        "placesCovered": 5,
+        "difficulty": "Moderate",
+        "costRange": "৳14,000–৳28,000",
+        "focus": "Best for travelers who want more than a simple weekend at the shore.",
+        "days": [
+          {
+            "title": "Day 1 – Beach Orientation",
+            "subtitle": "Laboni, long beach walks, and easy hotel check-in",
+            "transport": "Stay near the central beach belt for the first night.",
+            "cost": "4,900 BDT",
+            "slots": [
+              {
+                "period": "Morning",
+                "place": {
+                  "name": "Cox's Bazar Beach",
+                  "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=900&q=80",
+                  "description": "Settle in with a long beach walk and sea air.",
+                  "why_visit": ["Beach reset", "Easy movement", "Classic arrival day"],
+                  "best_time": "Morning",
+                  "duration_suggested": "2 hours",
+                  "tips": "Keep the first day light so the trip feels restorative.",
+                  "coordinates": { "lat": 21.4272, "lng": 92.0058 }
+                }
+              },
+              {
+                "period": "Afternoon",
+                "place": {
+                  "name": "Laboni Point",
+                  "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=900&q=80",
+                  "description": "Grab lunch and handle the practical beach logistics here.",
+                  "why_visit": ["Central point", "Easy food access", "Lively atmosphere"],
+                  "best_time": "Afternoon",
+                  "duration_suggested": "1–2 hours",
+                  "tips": "Use it as a launch point rather than the whole day.",
+                  "coordinates": { "lat": 21.4269, "lng": 92.0064 }
+                }
+              },
+              {
+                "period": "Evening",
+                "place": {
+                  "name": "Sunset Beach",
+                  "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=900&q=80",
+                  "description": "The first sunset is often the most memorable coastal moment.",
+                  "why_visit": ["Sunset", "Relaxed end", "Good for couples"],
+                  "best_time": "Sunset",
+                  "duration_suggested": "1–2 hours",
+                  "tips": "Plan dinner after the sunset so you do not rush back and forth.",
+                  "coordinates": { "lat": 21.4272, "lng": 92.0058 }
+                }
+              }
+            ]
+          },
+          {
+            "title": "Day 2 – Himchhari & Inani",
+            "subtitle": "Cliffs, quieter beaches, and a softer road loop",
+            "transport": "A car or jeep is the easiest way to keep the day efficient.",
+            "cost": "6,300 BDT",
+            "slots": [
+              {
+                "period": "Morning",
+                "place": {
+                  "name": "Himchhari",
+                  "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=900&q=80",
+                  "description": "A quick hill-and-sea stop that breaks the beach monotony.",
+                  "why_visit": ["Cliff views", "Short hike", "Good lookout point"],
+                  "best_time": "Morning",
+                  "duration_suggested": "1.5–2.5 hours",
+                  "tips": "Keep the pace easy and do not overpack the day.",
+                  "coordinates": { "lat": 21.4487, "lng": 92.0226 }
+                }
+              },
+              {
+                "period": "Afternoon",
+                "place": {
+                  "name": "Inani Beach",
+                  "image": "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=900&q=80",
+                  "description": "A quieter shore where the trip slows down again.",
+                  "why_visit": ["Quieter beach", "Longer relaxing stretch", "Clearer space"],
+                  "best_time": "Afternoon",
+                  "duration_suggested": "2 hours",
+                  "tips": "Use this beach if you prefer less crowding than the central shore.",
+                  "coordinates": { "lat": 21.3635, "lng": 92.0679 }
+                }
+              },
+              {
+                "period": "Evening",
+                "place": {
+                  "name": "Beachside Dinner",
+                  "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=900&q=80",
+                  "description": "Local seafood and a slow end to the road loop.",
+                  "why_visit": ["Food stop", "Easy ending", "Local flavor"],
+                  "best_time": "Evening",
+                  "duration_suggested": "1–2 hours",
+                  "tips": "Book dinner early if you are traveling during peak season.",
+                  "coordinates": { "lat": 21.4272, "lng": 92.0058 }
+                }
+              }
+            ]
+          },
+          {
+            "title": "Day 3 – Culture & Optional Island Plan",
+            "subtitle": "Ramu plus Saint Martin's as an optional extension",
+            "transport": "Keep the day flexible because the island option depends on sea conditions.",
+            "cost": "7,000 BDT",
+            "slots": [
+              {
+                "period": "Morning",
+                "place": {
+                  "name": "Ramu Buddhist Temple",
+                  "image": "https://images.unsplash.com/photo-1514221708779-4071a26c6d6d?auto=format&fit=crop&w=900&q=80",
+                  "description": "A calm heritage stop before another beach session.",
+                  "why_visit": ["Culture", "Quiet stop", "Simple addition"],
+                  "best_time": "Morning",
+                  "duration_suggested": "45–75 min",
+                  "tips": "Keep footwear easy to remove and re-enter respectfully.",
+                  "coordinates": { "lat": 21.4389, "lng": 92.1678 }
+                }
+              },
+              {
+                "period": "Afternoon",
+                "place": {
+                  "name": "Saint Martin's Island Option",
+                  "image": "https://images.unsplash.com/photo-1500375592092-2b1f0f3c0b1a?auto=format&fit=crop&w=900&q=80",
+                  "description": "A day-trip extension for travelers who want a longer sea experience.",
+                  "why_visit": ["Island extension", "Clear water mood", "More adventurous"],
+                  "best_time": "Dry season only",
+                  "duration_suggested": "Full day",
+                  "tips": "Treat this as an optional add-on and confirm sea conditions first.",
+                  "coordinates": { "lat": 20.6021, "lng": 92.3228 }
+                }
+              },
+              {
+                "period": "Evening",
+                "place": {
+                  "name": "Laboni Point",
+                  "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=900&q=80",
+                  "description": "Come back to the town center for an easy final walk.",
+                  "why_visit": ["Central location", "Easy close", "Good for souvenirs"],
+                  "best_time": "Evening",
+                  "duration_suggested": "1 hour",
+                  "tips": "Do not over-schedule this day if you choose the island option.",
+                  "coordinates": { "lat": 21.4269, "lng": 92.0064 }
+                }
+              }
+            ]
+          },
+          {
+            "title": "Day 4 – Departure Buffer",
+            "subtitle": "One last beach walk and a smooth exit",
+            "transport": "Keep the last day intentionally light.",
+            "cost": "4,800 BDT",
+            "slots": [
+              {
+                "period": "Morning",
+                "place": {
+                  "name": "Cox's Bazar Beach",
+                  "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=900&q=80",
+                  "description": "A final shoreline walk before packing up.",
+                  "why_visit": ["Last swim walk", "Easy start", "Sea reset"],
+                  "best_time": "Morning",
+                  "duration_suggested": "1.5 hours",
+                  "tips": "Use the earliest calm period available.",
+                  "coordinates": { "lat": 21.4272, "lng": 92.0058 }
+                }
+              },
+              {
+                "period": "Afternoon",
+                "place": {
+                  "name": "Beach Lunch",
+                  "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=900&q=80",
+                  "description": "Wrap the trip with a simple meal near the sea.",
+                  "why_visit": ["Food", "Convenient stop", "Simple end"],
+                  "best_time": "Afternoon",
+                  "duration_suggested": "1 hour",
+                  "tips": "Leave room to reach your bus, car, or flight comfortably.",
+                  "coordinates": { "lat": 21.4269, "lng": 92.0064 }
+                }
+              },
+              {
+                "period": "Evening",
+                "place": {
+                  "name": "Departure",
+                  "image": "https://images.unsplash.com/photo-1481959452982-d4ae9e8e4a1d?auto=format&fit=crop&w=900&q=80",
+                  "description": "Head out with a buffer rather than rushing the final hour.",
+                  "why_visit": ["No rush", "Trip closure", "Practical ending"],
+                  "best_time": "Evening",
+                  "duration_suggested": "Flexible",
+                  "tips": "Pack earlier than usual so the day ends calmly.",
+                  "coordinates": { "lat": 21.427, "lng": 92.006 }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "7-days",
+        "label": "🗓 7 Days",
+        "shortTitle": "Full Explorer",
+        "summary": "A relaxed week that mixes beach, culture, and a possible island extension.",
+        "placesCovered": 6,
+        "difficulty": "Moderate",
+        "costRange": "৳20,000–৳40,000",
+        "focus": "For travelers who want the coast without rushing.",
+        "days": [
+          {
+            "title": "Day 1 – Arrival",
+            "subtitle": "Beach orientation and sunset ease",
+            "transport": "Stay close to the main beach zone to save time.",
+            "cost": "4,500 BDT",
+            "slots": [
+              {
+                "period": "Morning",
+                "place": {
+                  "name": "Cox's Bazar Beach",
+                  "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=900&q=80",
+                  "description": "A long walk sets the week-long coastal pace.",
+                  "why_visit": ["Beach walk", "Sea air", "Easy start"],
+                  "best_time": "Morning",
+                  "duration_suggested": "2 hours",
+                  "tips": "Take the walk before the heat builds.",
+                  "coordinates": { "lat": 21.4272, "lng": 92.0058 }
+                }
+              },
+              {
+                "period": "Afternoon",
+                "place": {
+                  "name": "Laboni Point",
+                  "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=900&q=80",
+                  "description": "Handle lunch and practical beach needs here.",
+                  "why_visit": ["Food", "Central point", "Convenient"],
+                  "best_time": "Afternoon",
+                  "duration_suggested": "1–2 hours",
+                  "tips": "Keep the first day simple and light.",
+                  "coordinates": { "lat": 21.4269, "lng": 92.0064 }
+                }
+              },
+              {
+                "period": "Evening",
+                "place": {
+                  "name": "Sunset Beach",
+                  "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=900&q=80",
+                  "description": "A classic easy sunset closes the first day well.",
+                  "why_visit": ["Sunset", "Relaxed end", "Coastal mood"],
+                  "best_time": "Sunset",
+                  "duration_suggested": "1–2 hours",
+                  "tips": "Dinner after sunset keeps the rhythm smooth.",
+                  "coordinates": { "lat": 21.4272, "lng": 92.0058 }
+                }
+              }
+            ]
+          },
+          {
+            "title": "Day 2 – Hill and Shore",
+            "subtitle": "Himchhari and Inani for scenic contrast",
+            "transport": "A car makes the longer road day easy.",
+            "cost": "6,200 BDT",
+            "slots": [
+              {
+                "period": "Morning",
+                "place": {
+                  "name": "Himchhari",
+                  "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=900&q=80",
+                  "description": "Cliff views and sea horizon in a single stop.",
+                  "why_visit": ["Lookout point", "Short hike", "Road-trip scenery"],
+                  "best_time": "Morning",
+                  "duration_suggested": "1.5–2.5 hours",
+                  "tips": "Keep the pace easy and avoid extra climbing if tired.",
+                  "coordinates": { "lat": 21.4487, "lng": 92.0226 }
+                }
+              },
+              {
+                "period": "Afternoon",
+                "place": {
+                  "name": "Inani Beach",
+                  "image": "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=900&q=80",
+                  "description": "A quieter shore for a slower block of the day.",
+                  "why_visit": ["Quieter beach", "More space", "Relaxed atmosphere"],
+                  "best_time": "Afternoon",
+                  "duration_suggested": "2 hours",
+                  "tips": "Bring water and avoid very high tide moments.",
+                  "coordinates": { "lat": 21.3635, "lng": 92.0679 }
+                }
+              },
+              {
+                "period": "Evening",
+                "place": {
+                  "name": "Beachside Dinner",
+                  "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=900&q=80",
+                  "description": "Seafood and a quiet end to the road loop.",
+                  "why_visit": ["Dinner stop", "Easy ending", "Local flavor"],
+                  "best_time": "Evening",
+                  "duration_suggested": "1–2 hours",
+                  "tips": "Book ahead if you are here in the busiest season.",
+                  "coordinates": { "lat": 21.4272, "lng": 92.0058 }
+                }
+              }
+            ]
+          },
+          {
+            "title": "Day 3 – Heritage Day",
+            "subtitle": "Ramu and a calmer inland reset",
+            "transport": "Use a reserved car and keep the pace easy.",
+            "cost": "5,700 BDT",
+            "slots": [
+              {
+                "period": "Morning",
+                "place": {
+                  "name": "Ramu Buddhist Temple",
+                  "image": "https://images.unsplash.com/photo-1514221708779-4071a26c6d6d?auto=format&fit=crop&w=900&q=80",
+                  "description": "A quiet heritage stop that breaks up the beach rhythm.",
+                  "why_visit": ["Heritage", "Quiet stop", "Cultural balance"],
+                  "best_time": "Morning",
+                  "duration_suggested": "45–75 min",
+                  "tips": "Keep the visit respectful and compact.",
+                  "coordinates": { "lat": 21.4389, "lng": 92.1678 }
+                }
+              },
+              {
+                "period": "Afternoon",
+                "place": {
+                  "name": "Laboni Point",
+                  "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=900&q=80",
+                  "description": "Return to the main zone for easy access and lunch.",
+                  "why_visit": ["Practical stop", "Food and shops", "Central access"],
+                  "best_time": "Afternoon",
+                  "duration_suggested": "1–2 hours",
+                  "tips": "Use this to rest rather than to rush around.",
+                  "coordinates": { "lat": 21.4269, "lng": 92.0064 }
+                }
+              },
+              {
+                "period": "Evening",
+                "place": {
+                  "name": "Beach Sunset",
+                  "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=900&q=80",
+                  "description": "Another slow sunset to keep the trip balanced.",
+                  "why_visit": ["Relaxation", "Photo time", "Easy dinner transition"],
+                  "best_time": "Sunset",
+                  "duration_suggested": "1–2 hours",
+                  "tips": "Let the day breathe instead of packing in more stops.",
+                  "coordinates": { "lat": 21.4272, "lng": 92.0058 }
+                }
+              }
+            ]
+          },
+          {
+            "title": "Day 4 – Optional Island Day",
+            "subtitle": "Saint Martin's if sea conditions allow",
+            "transport": "Only proceed if the weather and ferry schedule are comfortable.",
+            "cost": "7,100 BDT",
+            "slots": [
+              {
+                "period": "Morning",
+                "place": {
+                  "name": "Saint Martin's Island",
+                  "image": "https://images.unsplash.com/photo-1500375592092-2b1f0f3c0b1a?auto=format&fit=crop&w=900&q=80",
+                  "description": "A full-day island extension for travelers who want extra sea time.",
+                  "why_visit": ["Island add-on", "Clear water mood", "Longer holiday"],
+                  "best_time": "Dry season only",
+                  "duration_suggested": "Full day",
+                  "tips": "Treat it as an optional trip and check sea conditions before booking.",
+                  "coordinates": { "lat": 20.6021, "lng": 92.3228 }
+                }
+              },
+              {
+                "period": "Afternoon",
+                "place": {
+                  "name": "Island Beach Time",
+                  "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=900&q=80",
+                  "description": "Slow beach time is the point, not an overstuffed agenda.",
+                  "why_visit": ["Relaxed island pace", "Sea extension", "Simple pleasure"],
+                  "best_time": "Afternoon",
+                  "duration_suggested": "2–3 hours",
+                  "tips": "Carry cash and keep your belongings minimal.",
+                  "coordinates": { "lat": 20.6021, "lng": 92.3228 }
+                }
+              },
+              {
+                "period": "Evening",
+                "place": {
+                  "name": "Return to Cox's Bazar",
+                  "image": "https://images.unsplash.com/photo-1481959452982-d4ae9e8e4a1d?auto=format&fit=crop&w=900&q=80",
+                  "description": "Head back with enough buffer to avoid a rushed close.",
+                  "why_visit": ["Flexible ending", "Practical", "Keeps the trip calm"],
+                  "best_time": "Evening",
+                  "duration_suggested": "Flexible",
+                  "tips": "If the ferry plan changes, keep the beach day as your fallback.",
+                  "coordinates": { "lat": 21.427, "lng": 92.006 }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "sundarbans",
+    "name": "Sundarbans",
+    "region": "South",
+    "tagline": "Mangrove silence, wildlife, and tidal forest drama.",
+    "shortDescription": "The Sundarbans is a nature-forward escape of boat rides, mangroves, and wildlife watching. It suits travelers who want a more adventurous, wildlife-centered Bangladesh trip.",
+    "heroImage": "/sundarbans.jpg",
+    "bannerImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "bestSeason": { "icon": "🌿", "label": "November – February", "badge": "Cool Wildlife Season", "note": "Dry season travel gives the best boat comfort and wildlife chances." },
+    "whyVisit": ["World-famous mangrove ecosystem.", "Wildlife and river navigation in one journey.", "Great for eco-travel and photographers.", "A distinctive Bangladesh experience."],
+    "tags": ["wildlife", "nature", "water", "relaxation", "adventure", "winter"],
+    "travelerTypes": ["solo", "couple", "friends"],
+    "budgetTags": ["mid-range", "comfort"],
+    "seasonTags": ["winter"],
+    "needsTags": ["no-long-walks", "halal"],
+    "transportNotes": ["Use organized boat tours and stay on a clear schedule.", "Carry light luggage and expect a full boat-focused day."],
+    "baseDayCost": [6000, 7500, 9000, 10000],
+    "keyPlaces": [
+      { "name": "Mangrove Boat Route", "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=900&q=80", "description": "The core boat route where the forest feels close and tidal." , "why_visit": ["Boat experience", "Mangrove walls", "Eco tourism"], "best_time": "Morning", "duration_suggested": "2–4 hours", "tips": "Book a guide with a clear safety plan.", "coordinates": { "lat": 21.9497, "lng": 89.1833 } },
+      { "name": "Forest Watch Point", "image": "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?auto=format&fit=crop&w=900&q=80", "description": "Quiet lookout stops are where the mangrove atmosphere lands best.", "why_visit": ["Wildlife chance", "Calm lookout", "Nature immersion"], "best_time": "Afternoon", "duration_suggested": "45–90 min", "tips": "Use binoculars if you have them.", "coordinates": { "lat": 21.9732, "lng": 89.1991 } },
+      { "name": "River Mouth View", "image": "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=900&q=80", "description": "Where river flow and tidal water create a unique finish.", "why_visit": ["Water dynamics", "Photography", "Open space"], "best_time": "Sunrise", "duration_suggested": "1 hour", "tips": "Morning light is the most forgiving.", "coordinates": { "lat": 21.9784, "lng": 89.2048 } },
+      { "name": "Village Stay", "image": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=900&q=80", "description": "A simple cultural stop that adds local rhythm to the eco-trip.", "why_visit": ["Local interaction", "Easy overnight", "Different pace"], "best_time": "Evening", "duration_suggested": "1–2 hours", "tips": "Keep respectful distance when photographing people.", "coordinates": { "lat": 22.0008, "lng": 89.2151 } }
+    ],
+    "packages": [
+      { "slug": "1-2-days", "label": "🗓 1–2 Days", "shortTitle": "Weekend Escape", "summary": "A simple eco-break with boat rides and one wildlife outlook.", "placesCovered": 3, "difficulty": "Moderate", "costRange": "৳10,000–৳18,000", "focus": "Good for first-time nature travelers." },
+      { "slug": "3-4-days", "label": "🗓 3–4 Days", "shortTitle": "Short Getaway", "summary": "More time on the water with a better chance to slow down.", "placesCovered": 4, "difficulty": "Moderate", "costRange": "৳16,000–৳26,000", "focus": "Best balance of boat time and rest." },
+      { "slug": "7-days", "label": "🗓 7 Days", "shortTitle": "Full Explorer", "summary": "An extended wildlife trip with more river navigation and village time.", "placesCovered": 5, "difficulty": "Hard", "costRange": "৳24,000–৳40,000", "focus": "For serious eco travelers." }
+    ]
+  },
+  {
+    "slug": "dhaka",
+    "name": "Dhaka",
+    "region": "Central",
+    "tagline": "Heritage lanes, city food, and the energy of the capital.",
+    "shortDescription": "Dhaka mixes history, food, and city life in a way that works well for short, culture-rich itineraries. It's the easiest starting point for international arrivals and city-loving locals.",
+    "heroImage": "https://images.unsplash.com/photo-1565992431122-2d4b1f0e8f0b?auto=format&fit=crop&w=1200&q=80",
+    "bannerImage": "https://images.unsplash.com/photo-1541976076758-347942db1977?auto=format&fit=crop&w=1600&q=80",
+    "bestSeason": { "icon": "🕌", "label": "November – February", "badge": "Cool City Season", "note": "Best for walking heritage lanes and trying food without heavy heat." },
+    "whyVisit": ["Old Dhaka heritage", "City food culture", "Easy airport access", "Great for short stays"],
+    "tags": ["city", "culture", "food", "budget-friendly", "winter"],
+    "travelerTypes": ["solo", "couple", "friends", "family"],
+    "budgetTags": ["budget", "mid-range", "comfort"],
+    "seasonTags": ["winter", "summer"],
+    "needsTags": ["halal", "wheelchair", "child-friendly"],
+    "transportNotes": ["Use rideshares and short walking segments.", "Keep traffic time in mind when planning the day."],
+    "baseDayCost": [3000, 4200, 5500, 6200],
+    "keyPlaces": [
+      { "name": "Lalbagh Fort", "image": "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?auto=format&fit=crop&w=900&q=80", "description": "The classic Mughal-era stop for heritage lovers.", "why_visit": ["Historic", "Central", "Easy to combine"], "best_time": "Morning", "duration_suggested": "1–2 hours", "tips": "Go early to avoid the worst heat and traffic.", "coordinates": { "lat": 23.7212, "lng": 90.3860 } },
+      { "name": "Ahsan Manzil", "image": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=900&q=80", "description": "A heritage palace that pairs well with Old Dhaka food walks.", "why_visit": ["Palace", "River edge", "Photo stop"], "best_time": "Morning", "duration_suggested": "1 hour", "tips": "Combine it with a longer Old Dhaka route.", "coordinates": { "lat": 23.7057, "lng": 90.4065 } },
+      { "name": "Old Dhaka Food Lane", "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=900&q=80", "description": "The best way to experience the city's living food culture.", "why_visit": ["Food", "Local energy", "Short distances"], "best_time": "Evening", "duration_suggested": "2 hours", "tips": "Try a mixed snack walk instead of a full heavy meal.", "coordinates": { "lat": 23.7105, "lng": 90.4109 } },
+      { "name": "Sadarghat", "image": "https://images.unsplash.com/photo-1482192596544-9eb780fc7f66?auto=format&fit=crop&w=900&q=80", "description": "The river port area adds movement and raw city texture.", "why_visit": ["River life", "Busy atmosphere", "Strong sense of place"], "best_time": "Morning", "duration_suggested": "45–60 min", "tips": "Stay alert and keep camera gear secure.", "coordinates": { "lat": 23.7063, "lng": 90.4040 } }
+    ],
+    "packages": [
+      { "slug": "1-2-days", "label": "🗓 1–2 Days", "shortTitle": "Weekend Escape", "summary": "City highlights, heritage, and a compact food trail.", "placesCovered": 3, "difficulty": "Easy", "costRange": "৳4,000–৳9,000", "focus": "Good for a quick urban break." },
+      { "slug": "3-4-days", "label": "🗓 3–4 Days", "shortTitle": "Short Getaway", "summary": "A better mix of heritage, food, and slower city movement.", "placesCovered": 4, "difficulty": "Easy", "costRange": "৳7,000–৳14,000", "focus": "Best for first-time city visitors." },
+      { "slug": "7-days", "label": "🗓 7 Days", "shortTitle": "Full Explorer", "summary": "A dense city week built around food, history, and neighborhoods.", "placesCovered": 5, "difficulty": "Moderate", "costRange": "৳14,000–৳26,000", "focus": "For travelers who like urban exploration." }
+    ]
+  },
+  {
+    "slug": "chittagong",
+    "name": "Chittagong",
+    "region": "East",
+    "tagline": "Harbor energy, hills, and a taste of coastal city life.",
+    "shortDescription": "Chittagong sits between sea, hills, and commerce, giving it a very different rhythm from Dhaka. It's great for travelers who want food, city energy, and easy access toward the coast.",
+    "heroImage": "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?auto=format&fit=crop&w=1200&q=80",
+    "bannerImage": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1600&q=80",
+    "bestSeason": { "icon": "🌊", "label": "November – February", "badge": "Cool Harbor Season", "note": "Comfortable for city movement and hill-view stops." },
+    "whyVisit": ["Port city identity", "Hill-and-sea access", "Good food scene", "Gateway to the southeast"],
+    "tags": ["city", "food", "beach", "hills", "winter"],
+    "travelerTypes": ["solo", "couple", "friends"],
+    "budgetTags": ["budget", "mid-range", "comfort"],
+    "seasonTags": ["winter", "summer"],
+    "needsTags": ["halal", "no-long-walks"],
+    "transportNotes": ["Use a car for hill stops and city hops.", "Traffic can be heavy, so keep your plan compact."],
+    "baseDayCost": [4000, 5200, 6100, 7000],
+    "keyPlaces": [
+      { "name": "Patenga Beach", "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=900&q=80", "description": "An easy coastal stop on the city edge.", "why_visit": ["Beach access", "Quick stop", "Sunset"], "best_time": "Evening", "duration_suggested": "1–2 hours", "tips": "Use it as a wind-down stop rather than a full beach day.", "coordinates": { "lat": 22.2280, "lng": 91.7832 } },
+      { "name": "Foy's Lake", "image": "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=900&q=80", "description": "A pleasant lake-and-hill attraction for city visitors.", "why_visit": ["Leisure stop", "Good with friends", "Easy half day"], "best_time": "Afternoon", "duration_suggested": "2 hours", "tips": "Pair it with an early dinner in the city.", "coordinates": { "lat": 22.3605, "lng": 91.7990 } },
+      { "name": "Chittagong Hill View", "image": "https://images.unsplash.com/photo-1519452575417-564c1401ecc0?auto=format&fit=crop&w=900&q=80", "description": "A quick reminder that the city sits close to the hills.", "why_visit": ["Scenic contrast", "City panorama", "Short visit"], "best_time": "Morning", "duration_suggested": "45 min", "tips": "Do not make this a long stop on a traffic-heavy day.", "coordinates": { "lat": 22.3516, "lng": 91.8221 } },
+      { "name": "Baitul Falah area", "image": "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=900&q=80", "description": "An urban food and mosque area that works well for short local exploration.", "why_visit": ["Local life", "Food", "Central movement"], "best_time": "Evening", "duration_suggested": "1 hour", "tips": "Use a short ride rather than attempting a long walk in peak traffic.", "coordinates": { "lat": 22.3661, "lng": 91.8037 } }
+    ],
+    "packages": [
+      { "slug": "1-2-days", "label": "🗓 1–2 Days", "shortTitle": "Weekend Escape", "summary": "A city-coast combo with enough room for a beach sunset.", "placesCovered": 3, "difficulty": "Easy", "costRange": "৳5,000–৳10,000", "focus": "Good for a quick coastal city break." },
+      { "slug": "3-4-days", "label": "🗓 3–4 Days", "shortTitle": "Short Getaway", "summary": "A broader Chittagong stay with city food and a seaside finish.", "placesCovered": 4, "difficulty": "Moderate", "costRange": "৳9,000–৳18,000", "focus": "Best for city and sea mix." },
+      { "slug": "7-days", "label": "🗓 7 Days", "shortTitle": "Full Explorer", "summary": "A slower harbor week with more room for nearby day trips.", "placesCovered": 5, "difficulty": "Moderate", "costRange": "৳16,000–৳30,000", "focus": "For travelers who like city rhythm." }
+    ]
+  },
+  {
+    "slug": "bandarban",
+    "name": "Bandarban",
+    "region": "East",
+    "tagline": "Hills, viewpoints, and trekking energy in one escape.",
+    "shortDescription": "Bandarban is the go-to destination for travelers who want hills, viewpoints, and more active outdoor days. It is especially strong for couples, friends, and nature-focused trips.",
+    "heroImage": "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1200&q=80",
+    "bannerImage": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1600&q=80",
+    "bestSeason": { "icon": "🏔️", "label": "October – March", "badge": "Cool Hill Season", "note": "Dry, clear weather is best for viewpoints and trekking." },
+    "whyVisit": ["Hill scenery", "Viewpoints", "Trekking options", "Fresh air and slower stays"],
+    "tags": ["hills", "nature", "adventure", "relaxation", "winter"],
+    "travelerTypes": ["couple", "friends", "solo"],
+    "budgetTags": ["budget", "mid-range", "comfort"],
+    "seasonTags": ["winter"],
+    "needsTags": ["no-long-walks"],
+    "transportNotes": ["Use a jee/vehicle and keep the road time in mind.", "Trekking days need an early start and enough rest."],
+    "baseDayCost": [5500, 6800, 8200, 9000],
+    "keyPlaces": [
+      { "name": "Nilgiri Viewpoint", "image": "https://images.unsplash.com/photo-1516431883659-655d6f81d3b9?auto=format&fit=crop&w=900&q=80", "description": "One of the most accessible hill viewpoints in the district.", "why_visit": ["Big view", "Easy reward", "Great for photos"], "best_time": "Morning", "duration_suggested": "1–2 hours", "tips": "Go early if you want a clear horizon.", "coordinates": { "lat": 21.9088, "lng": 92.3386 } },
+      { "name": "Nafakhum area", "image": "https://images.unsplash.com/photo-1439066615861-d1af74d74000?auto=format&fit=crop&w=900&q=80", "description": "A trekking-heavy area for travelers who want a bigger outdoor day.", "why_visit": ["Adventure", "Waterfall feel", "Longer excursion"], "best_time": "Dry season", "duration_suggested": "Half day", "tips": "Use a guide and do not rush the trail.", "coordinates": { "lat": 21.9568, "lng": 92.2873 } },
+      { "name": "Bandarban Town View", "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80", "description": "A practical stop for food and re-grouping between hill drives.", "why_visit": ["Convenience", "Food", "Town energy"], "best_time": "Evening", "duration_suggested": "1 hour", "tips": "Use it as the resting base for hill trips.", "coordinates": { "lat": 22.1952, "lng": 92.2184 } },
+      { "name": "Nilachal", "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=900&q=80", "description": "A scenic viewpoint that works well on a soft hill itinerary.", "why_visit": ["Sunset views", "Hill breeze", "Short stop"], "best_time": "Sunset", "duration_suggested": "1–2 hours", "tips": "Combine it with dinner back in town.", "coordinates": { "lat": 22.2542, "lng": 92.2321 } }
+    ],
+    "packages": [
+      { "slug": "1-2-days", "label": "🗓 1–2 Days", "shortTitle": "Weekend Escape", "summary": "A hill-view sampler with one viewpoint and one easy city stop.", "placesCovered": 3, "difficulty": "Moderate", "costRange": "৳7,000–৳14,000", "focus": "Good for first hill trips." },
+      { "slug": "3-4-days", "label": "🗓 3–4 Days", "shortTitle": "Short Getaway", "summary": "The right amount of time for viewpoints and one trek day.", "placesCovered": 4, "difficulty": "Moderate", "costRange": "৳12,000–৳22,000", "focus": "Best overall Bandarban balance." },
+      { "slug": "7-days", "label": "🗓 7 Days", "shortTitle": "Full Explorer", "summary": "A longer hill circuit for travelers who want more trekking and slow stays.", "placesCovered": 5, "difficulty": "Hard", "costRange": "৳20,000–৳36,000", "focus": "For outdoor-focused trips." }
+    ]
+  },
+  {
+    "slug": "rajshahi",
+    "name": "Rajshahi",
+    "region": "West",
+    "tagline": "Riverside calm, heritage, and a slower northwestern rhythm.",
+    "shortDescription": "Rajshahi is a smooth cultural and riverside destination with a strong sense of calm. It suits travelers who like history, short city walks, and a slower pace.",
+    "heroImage": "https://images.unsplash.com/photo-1524492449090-5c8a9d4a6c6b?auto=format&fit=crop&w=1200&q=80",
+    "bannerImage": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1600&q=80",
+    "bestSeason": { "icon": "🌸", "label": "November – February", "badge": "Cool Riverside Season", "note": "Comfortable weather for walking and riverfront time." },
+    "whyVisit": ["Riverside walks", "Cultural stops", "Low-stress city breaks", "Easy food exploration"],
+    "tags": ["city", "culture", "relaxation", "budget-friendly", "winter"],
+    "travelerTypes": ["solo", "couple", "family"],
+    "budgetTags": ["budget", "mid-range"],
+    "seasonTags": ["winter", "summer"],
+    "needsTags": ["halal", "child-friendly", "wheelchair"],
+    "transportNotes": ["Use city rides and short walks by the river.", "Keep the heat in mind if you travel outside winter."],
+    "baseDayCost": [2800, 3900, 4800, 5500],
+    "keyPlaces": [
+      { "name": "Padma Riverfront", "image": "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=900&q=80", "description": "A calm river edge that gives Rajshahi its relaxed tone.", "why_visit": ["Riverside", "Walking", "Sunset"], "best_time": "Evening", "duration_suggested": "1–2 hours", "tips": "Keep a light pace and use it as a slow-down stop.", "coordinates": { "lat": 24.3745, "lng": 88.6023 } },
+      { "name": "Varendra Research Museum", "image": "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?auto=format&fit=crop&w=900&q=80", "description": "A heritage stop for travelers who like local history.", "why_visit": ["Museum", "Cultural depth", "Easy city add-on"], "best_time": "Morning", "duration_suggested": "1 hour", "tips": "Combine it with nearby lunch or tea.", "coordinates": { "lat": 24.3666, "lng": 88.6211 } },
+      { "name": "Puthia Temple Complex", "image": "https://images.unsplash.com/photo-1518630381914-e43fdfd8f6f6?auto=format&fit=crop&w=900&q=80", "description": "A heritage cluster that expands the Rajshahi day beyond the city center.", "why_visit": ["Temple complex", "Architecture", "Calm exploration"], "best_time": "Morning", "duration_suggested": "2 hours", "tips": "Carry water and keep the day balanced with a slower lunch.", "coordinates": { "lat": 24.3009, "lng": 88.2575 } },
+      { "name": "Local Mango Market", "image": "https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?auto=format&fit=crop&w=900&q=80", "description": "A seasonal stop that gives the city a very local flavor.", "why_visit": ["Food", "Seasonal produce", "Local energy"], "best_time": "Morning", "duration_suggested": "45 min", "tips": "Best when mango season is in full swing.", "coordinates": { "lat": 24.3720, "lng": 88.6048 } }
+    ],
+    "packages": [
+      { "slug": "1-2-days", "label": "🗓 1–2 Days", "shortTitle": "Weekend Escape", "summary": "A short cultural break with riverfront calm and one heritage stop.", "placesCovered": 3, "difficulty": "Easy", "costRange": "৳3,500–৳8,000", "focus": "Good for a quiet city reset." },
+      { "slug": "3-4-days", "label": "🗓 3–4 Days", "shortTitle": "Short Getaway", "summary": "A better-paced Rajshahi trip with river, temple, and museum time.", "placesCovered": 4, "difficulty": "Easy", "costRange": "৳6,000–৳12,000", "focus": "Best for a slow cultural stay." },
+      { "slug": "7-days", "label": "🗓 7 Days", "shortTitle": "Full Explorer", "summary": "A full northwestern city-and-heritage loop with a slower pace.", "placesCovered": 5, "difficulty": "Easy", "costRange": "৳12,000–৳20,000", "focus": "For relaxed travelers." }
+    ]
+  },
+  {
+    "slug": "sreemangal",
+    "name": "Sreemangal",
+    "region": "East",
+    "tagline": "Tea estates, quiet lakes, and countryside calm.",
+    "shortDescription": "Sreemangal is the tea capital of Bangladesh and a natural fit for slow, scenic trips. It is especially good for couples, families, and tea-loving travelers.",
+    "heroImage": "https://images.unsplash.com/photo-1517487881594-2787fef5ebf7?auto=format&fit=crop&w=1200&q=80",
+    "bannerImage": "https://images.unsplash.com/photo-1504198453319-5ce911bafcde?auto=format&fit=crop&w=1600&q=80",
+    "bestSeason": { "icon": "🍵", "label": "October – March", "badge": "Tea Garden Season", "note": "Comfortable for countryside stays and tea estate visits." },
+    "whyVisit": ["Tea capital of Bangladesh", "Calm countryside movement", "Great for slow stays", "Easy pair with Sylhet"],
+    "tags": ["tea", "nature", "relaxation", "family", "winter"],
+    "travelerTypes": ["solo", "couple", "family"],
+    "budgetTags": ["budget", "mid-range", "comfort"],
+    "seasonTags": ["winter", "monsoon"],
+    "needsTags": ["child-friendly", "halal", "no-long-walks"],
+    "transportNotes": ["Use a car or reserved auto for tea-estate movement.", "Keep the itinerary slow and scenic."],
+    "baseDayCost": [3200, 4200, 5200, 6000],
+    "keyPlaces": [
+      { "name": "Tea Estates", "image": "https://images.unsplash.com/photo-1517487881594-2787fef5ebf7?auto=format&fit=crop&w=900&q=80", "description": "The main reason travelers come here: green tea rows and quiet air.", "why_visit": ["Tea scenery", "Countryside calm", "Easy photography"], "best_time": "Morning", "duration_suggested": "2–3 hours", "tips": "Add tea tasting if it is offered by the estate.", "coordinates": { "lat": 24.3097, "lng": 91.7339 } },
+      { "name": "Lawachara edge", "image": "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=900&q=80", "description": "A forest-edge stop for travelers who want a bit more nature.", "why_visit": ["Forest feel", "Short walk", "Nature break"], "best_time": "Morning", "duration_suggested": "1–2 hours", "tips": "Keep the walk short if you are traveling with kids.", "coordinates": { "lat": 24.3190, "lng": 91.7902 } },
+      { "name": "Madhabpur Lake", "image": "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=900&q=80", "description": "A calm lake view that fits the Sreemangal mood perfectly.", "why_visit": ["Lake calm", "Family-friendly", "Relaxation"], "best_time": "Afternoon", "duration_suggested": "1–2 hours", "tips": "Use this as the final scenic stop of the day.", "coordinates": { "lat": 24.2992, "lng": 91.7608 } },
+      { "name": "Baa Khol", "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=900&q=80", "description": "A quieter countryside stop for fresh air and a slower walk.", "why_visit": ["Quiet stop", "Countryside", "Low pressure"], "best_time": "Late afternoon", "duration_suggested": "45–60 min", "tips": "Keep it simple and do not overpack the day.", "coordinates": { "lat": 24.3370, "lng": 91.7220 } }
+    ],
+    "packages": [
+      { "slug": "1-2-days", "label": "🗓 1–2 Days", "shortTitle": "Weekend Escape", "summary": "Tea gardens, one forest-edge stop, and a lake finish.", "placesCovered": 3, "difficulty": "Easy", "costRange": "৳4,000–৳9,000", "focus": "Great for a quick countryside break." },
+      { "slug": "3-4-days", "label": "🗓 3–4 Days", "shortTitle": "Short Getaway", "summary": "A slower tea-country trip with room for walking and rest.", "placesCovered": 4, "difficulty": "Easy", "costRange": "৳7,000–৳14,000", "focus": "Best for peace and tea lovers." },
+      { "slug": "7-days", "label": "🗓 7 Days", "shortTitle": "Full Explorer", "summary": "A long tea-country stay with extra countryside time.", "placesCovered": 5, "difficulty": "Easy", "costRange": "৳14,000–৳24,000", "focus": "For travelers who want to slow all the way down." }
+    ]
+  }
+]
