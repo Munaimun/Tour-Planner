@@ -1,4 +1,4 @@
-import React from "react";
+/* eslint-disable react/prop-types */
 import { useState } from "react";
 
 // all the props are form date file

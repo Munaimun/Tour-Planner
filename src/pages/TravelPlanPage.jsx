@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { ArrowLeft, CalendarDays, Clock3, MapPin, Star } from 'lucide-react'
 import { Link, Navigate, useParams } from 'react-router-dom'
 import destinations from '../data/destinations.json'

@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { ArrowLeft, ArrowRight, BadgeCheck, Heart, Sparkles } from 'lucide-react'
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'

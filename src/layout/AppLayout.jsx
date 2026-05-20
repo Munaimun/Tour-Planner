@@ -1,7 +1,7 @@
 import { Outlet, useLocation } from 'react-router-dom'
-import Header from '../components/layout/Header'
-import Footer from '../components/layout/Footer'
-import ScrollToTopButton from '../components/layout/ScrollToTopButton'
+import Header from '../Components/layout/Header'
+import Footer from '../Components/layout/Footer'
+import ScrollToTopButton from '../Components/layout/ScrollToTopButton'
 
 export default function AppLayout() {
   const location = useLocation()

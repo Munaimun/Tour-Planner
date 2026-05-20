@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { Heart, Sparkles } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import { useWishlist } from '../../contexts/WishlistContext'

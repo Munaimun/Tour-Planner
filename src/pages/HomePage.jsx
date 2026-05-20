@@ -1,9 +1,9 @@
 import { ArrowRight, Filter, Search } from 'lucide-react'
 import { useEffect, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
-import DestinationCard from '../components/common/DestinationCard'
-import SkeletonCard from '../components/common/SkeletonCard'
-import HeroCarousel from '../components/home/HeroCarousel'
+import DestinationCard from '../Components/common/DestinationCard'
+import SkeletonCard from '../Components/common/SkeletonCard'
+import HeroCarousel from '../Components/home/HeroCarousel'
 import destinations from '../data/destinations.json'
 import { regionOptions } from '../data/constants'
 

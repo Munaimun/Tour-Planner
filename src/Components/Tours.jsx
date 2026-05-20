@@ -1,4 +1,4 @@
-import React from "react";
+/* eslint-disable react/prop-types */
 import Card from "./Card";
 const Tours = ({ tours, removeTour }) => {
   return (
