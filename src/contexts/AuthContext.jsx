@@ -1,43 +1,60 @@
+/* eslint-disable react-refresh/only-export-components */
 /* eslint-disable react/prop-types */
 import { createContext, useContext, useEffect, useMemo, useState } from 'react'
 
-const STORAGE_KEY = 'visitbd-user'
+import { apiRequest } from '../lib/api'
+
+const TOKEN_KEY = 'visitbd-token'
 const AuthContext = createContext(null)
 
 export function AuthProvider({ children }) {
-  const [user, setUser] = useState(() => {
-    try {
-      const stored = window.localStorage.getItem(STORAGE_KEY)
-      return stored ? JSON.parse(stored) : null
-    } catch {
-      return null
-    }
-  })
+  const [user, setUser] = useState(null)
+  const [token, setToken] = useState(() => window.localStorage.getItem(TOKEN_KEY) || '')
+  const [isHydrating, setIsHydrating] = useState(true)
 
   useEffect(() => {
-    if (user) {
-      window.localStorage.setItem(STORAGE_KEY, JSON.stringify(user))
-    } else {
-      window.localStorage.removeItem(STORAGE_KEY)
+    if (!token) {
+      setIsHydrating(false)
+      return
     }
-  }, [user])
+
+    apiRequest('/api/auth/me', {
+      headers: { Authorization: `Bearer ${token}` },
+    })
+      .then(({ user: nextUser }) => {
+        setUser(nextUser)
+      })
+      .catch(() => {
+        window.localStorage.removeItem(TOKEN_KEY)
+        setToken('')
+        setUser(null)
+      })
+      .finally(() => setIsHydrating(false))
+  }, [token])
 
   const value = useMemo(
     () => ({
       user,
-      login: ({ name, email }) => {
-        const nextUser = {
-          id: crypto.randomUUID(),
-          name: name.trim(),
-          email: email.trim().toLowerCase(),
-          joinedAt: new Date().toISOString(),
-        }
-        setUser(nextUser)
+      login: async ({ name, email, password }) => {
+        const data = await apiRequest('/api/auth/login', {
+          method: 'POST',
+          body: JSON.stringify({ name, email, password }),
+        })
+
+        window.localStorage.setItem(TOKEN_KEY, data.token)
+        setToken(data.token)
+        setUser(data.user)
+        return data.user
       },
-      logout: () => setUser(null),
-      isAuthenticated: Boolean(user),
+      logout: () => {
+        window.localStorage.removeItem(TOKEN_KEY)
+        setToken('')
+        setUser(null)
+      },
+      isAuthenticated: Boolean(user && token),
+      isHydrating,
     }),
-    [user],
+    [isHydrating, token, user],
   )
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>

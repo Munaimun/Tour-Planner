@@ -1,36 +1,61 @@
+/* eslint-disable react-refresh/only-export-components */
 /* eslint-disable react/prop-types */
 import { createContext, useContext, useEffect, useMemo, useState } from 'react'
 
-const STORAGE_KEY = 'visitbd-wishlist'
+import { apiRequest } from '../lib/api'
+import { useAuth } from './AuthContext'
+
 const WishlistContext = createContext(null)
 
 export function WishlistProvider({ children }) {
-  const [wishlist, setWishlist] = useState(() => {
-    try {
-      const stored = window.localStorage.getItem(STORAGE_KEY)
-      return stored ? JSON.parse(stored) : []
-    } catch {
-      return []
-    }
-  })
+  const { isAuthenticated, isHydrating } = useAuth()
+  const [wishlist, setWishlist] = useState([])
 
   useEffect(() => {
-    window.localStorage.setItem(STORAGE_KEY, JSON.stringify(wishlist))
-  }, [wishlist])
+    if (!isAuthenticated) {
+      setWishlist([])
+      return
+    }
+
+    apiRequest('/api/users/me/wishlist', {
+      headers: { Authorization: `Bearer ${window.localStorage.getItem('visitbd-token') || ''}` },
+    })
+      .then((data) => setWishlist(data.wishlist || []))
+      .catch(() => setWishlist([]))
+  }, [isAuthenticated])
 
   const value = useMemo(() => {
     const ids = new Set(wishlist)
     return {
       wishlist,
       isSaved: (slug) => ids.has(slug),
-      toggleWish: (slug) =>
-        setWishlist((prev) =>
-          prev.includes(slug) ? prev.filter((item) => item !== slug) : [...prev, slug],
-        ),
-      removeWish: (slug) => setWishlist((prev) => prev.filter((item) => item !== slug)),
-      clearWish: () => setWishlist([]),
+      toggleWish: async (slug) => {
+        if (!isAuthenticated || isHydrating) return
+        const data = await apiRequest('/api/users/me/wishlist/toggle', {
+          method: 'POST',
+          headers: { Authorization: `Bearer ${window.localStorage.getItem('visitbd-token') || ''}` },
+          body: JSON.stringify({ slug }),
+        })
+        setWishlist(data.wishlist || [])
+      },
+      removeWish: async (slug) => {
+        if (!isAuthenticated || isHydrating) return
+        const data = await apiRequest(`/api/users/me/wishlist/${slug}`, {
+          method: 'DELETE',
+          headers: { Authorization: `Bearer ${window.localStorage.getItem('visitbd-token') || ''}` },
+        })
+        setWishlist(data.wishlist || [])
+      },
+      clearWish: async () => {
+        if (!isAuthenticated || isHydrating) return
+        const data = await apiRequest('/api/users/me/wishlist', {
+          method: 'DELETE',
+          headers: { Authorization: `Bearer ${window.localStorage.getItem('visitbd-token') || ''}` },
+        })
+        setWishlist(data.wishlist || [])
+      },
     }
-  }, [wishlist])
+  }, [isAuthenticated, isHydrating, wishlist])
 
   return <WishlistContext.Provider value={value}>{children}</WishlistContext.Provider>
 }

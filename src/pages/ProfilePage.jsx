@@ -1,13 +1,14 @@
 /* eslint-disable react/prop-types */
 import { CalendarDays, Heart, Mail, User } from 'lucide-react'
 import { Link } from 'react-router-dom'
+import { useDestinations } from '../contexts/DestinationsContext'
 import { useAuth } from '../contexts/AuthContext'
 import { useWishlist } from '../contexts/WishlistContext'
-import destinations from '../data/destinations.json'
 
 export default function ProfilePage() {
   const { user, isAuthenticated } = useAuth()
   const { wishlist } = useWishlist()
+  const { destinations } = useDestinations()
 
   if (!isAuthenticated) {
     return (

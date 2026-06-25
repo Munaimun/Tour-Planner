@@ -2,6 +2,7 @@
 import { ArrowLeft, ArrowRight, BadgeCheck, Heart, Sparkles } from 'lucide-react'
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
+import { useDestinations } from '../contexts/DestinationsContext'
 import { useWishlist } from '../contexts/WishlistContext'
 import {
   budgetOptions,
@@ -11,14 +12,16 @@ import {
   travelerOptions,
   vibeOptions,
 } from '../data/constants'
-import destinations from '../data/destinations.json'
 import { recommendDestinations } from '../utils/recommend'
+
+const loadingTexts = ['Scanning tea gardens...', 'Checking the tides...', 'Asking the hilltops...']
 
 export default function RecommendPage() {
   const [step, setStep] = useState(1)
   const [loading, setLoading] = useState(false)
   const [results, setResults] = useState([])
   const [textIndex, setTextIndex] = useState(0)
+  const { destinations } = useDestinations()
 
   const [pref, setPref] = useState({
     travelerType: '',
@@ -28,8 +31,6 @@ export default function RecommendPage() {
     season: 'any',
     needs: [],
   })
-
-  const loadingTexts = ['Scanning tea gardens...', 'Checking the tides...', 'Asking the hilltops...']
 
   useEffect(() => {
     if (!loading) {

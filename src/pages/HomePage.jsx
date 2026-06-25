@@ -1,16 +1,18 @@
 import { ArrowRight, Filter, Search } from 'lucide-react'
 import { useEffect, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
+
 import DestinationCard from '../Components/common/DestinationCard'
 import SkeletonCard from '../Components/common/SkeletonCard'
 import HeroCarousel from '../Components/home/HeroCarousel'
-import destinations from '../data/destinations.json'
+import { useDestinations } from '../contexts/DestinationsContext'
 import { regionOptions } from '../data/constants'
 
 export default function HomePage() {
   const [query, setQuery] = useState('')
   const [region, setRegion] = useState('All')
   const [isLoading, setIsLoading] = useState(true)
+  const { destinations } = useDestinations()
 
   useEffect(() => {
     const timer = window.setTimeout(() => setIsLoading(false), 700)
@@ -28,7 +30,7 @@ export default function HomePage() {
         item.tags.some((tag) => tag.toLowerCase().includes(q))
       return matchRegion && matchQuery
     })
-  }, [query, region])
+  }, [destinations, query, region])
 
   const hasActiveFilters = region !== 'All' || query.trim().length > 0
 
@@ -45,8 +47,8 @@ export default function HomePage() {
           <span className="w-fit rounded-full border border-white/30 bg-white/20 px-4 py-1 text-xs font-semibold uppercase tracking-wide">
             Bangladesh Tourism Made Smart
           </span>
-          <h1 className="font-display text-5xl leading-tight md:text-7xl">Discover Bangladesh</h1>
-          <p className="max-w-2xl text-base text-white/85 md:text-lg">
+          <h1 className="text-green-400 text-5xl leading-tight md:text-7xl">Discover Bangladesh</h1>
+          <p className="max-w-2xl text-base text-white md:text-lg">
             Your smart travel companion for every corner of Bangladesh.
           </p>
 

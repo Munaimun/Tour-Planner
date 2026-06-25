@@ -21,9 +21,14 @@ export default function LoginPage() {
       return
     }
 
-    login({ name: form.name, email: form.email })
-    const redirectTo = location.state?.from || '/profile'
-    navigate(redirectTo, { replace: true })
+    login({ name: form.name, email: form.email, password: form.password })
+      .then(() => {
+        const redirectTo = location.state?.from || '/profile'
+        navigate(redirectTo, { replace: true })
+      })
+      .catch(() => {
+        setError('Login failed. Please check your details and try again.')
+      })
   }
 
   return (
@@ -32,7 +37,7 @@ export default function LoginPage() {
         <p className="text-xs font-bold uppercase tracking-widest text-[#1a4731]">Account</p>
         <h1 className="mt-1 font-display text-5xl text-[#102b1e]">Login</h1>
         <p className="mt-2 text-sm text-[#587062]">
-          No backend yet. This stores user session in localStorage for now.
+          Sign in to sync your profile and wishlist with MongoDB.
         </p>
 
         <form onSubmit={handleSubmit} className="mt-5 space-y-4">

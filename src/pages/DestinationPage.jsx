@@ -1,12 +1,13 @@
 import { BadgeCheck, Heart } from 'lucide-react'
 import { Link, Navigate, useParams } from 'react-router-dom'
+import { useDestinations } from '../contexts/DestinationsContext'
 import { useWishlist } from '../contexts/WishlistContext'
-import destinations from '../data/destinations.json'
 
 export default function DestinationPage() {
   const { slug } = useParams()
-  const destination = destinations.find((item) => item.slug === slug)
   const { isSaved, toggleWish } = useWishlist()
+  const { getDestination } = useDestinations()
+  const destination = getDestination(slug)
 
   if (!destination) {
     return <Navigate to="/" replace />

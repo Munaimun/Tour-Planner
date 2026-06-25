@@ -24,15 +24,12 @@ export default function Footer() {
         <section>
           <h3 className="font-display text-xl text-[#102b1e]">Contact</h3>
           <div className="mt-3 space-y-1 text-sm text-[#587062]">
-            <p>hello@visitbd.example</p>
+            <p>munaimunz@gmail.com</p>
             <p>Dhaka, Bangladesh</p>
             <p>Facebook · Instagram · YouTube</p>
           </div>
         </section>
       </div>
-      <p className="border-t border-[#1a4731]/10 py-4 text-center text-xs text-[#587062]">
-        Built with React + Tailwind. No backend needed for now.
-      </p>
     </footer>
   )
 }

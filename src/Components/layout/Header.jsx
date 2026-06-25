@@ -1,4 +1,4 @@
-import { Heart, Languages, LogOut, Menu, Sparkles, User, X } from 'lucide-react'
+import { Heart,LogOut, Menu, Sparkles, User, X } from 'lucide-react'
 import { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { useAuth } from '../../contexts/AuthContext'
@@ -11,14 +11,14 @@ const navItems = [
 
 export default function Header() {
   const [open, setOpen] = useState(false)
-  const [lang, setLang] = useState('EN')
+  // const [lang, setLang] = useState('EN')
   const { isAuthenticated, logout } = useAuth()
 
   return (
     <header className="sticky top-0 z-40 border-b border-[#1a4731]/10 bg-[#fdf6ec]/90 backdrop-blur">
       <div className="mx-auto flex h-16 w-[min(1180px,calc(100%-1rem))] items-center justify-between gap-3">
         <Link to="/" className="flex items-center gap-2" onClick={() => setOpen(false)}>
-          <span className="grid h-10 w-10 place-items-center rounded-full bg-[#1a4731] font-black text-white">V</span>
+          {/* <span className="grid h-10 w-10 place-items-center rounded-full bg-[#1a4731] font-black text-white">V</span> */}
           <span>
             <span className="block font-display text-lg text-[#102b1e]">ViewFinder</span>
             <span className="block text-xs text-[#587062]">Bangladesh Travel Planner</span>
@@ -52,14 +52,14 @@ export default function Header() {
         </nav>
 
         <div className="flex items-center gap-2">
-          <button
+          {/* <button
             type="button"
             onClick={() => setLang((cur) => (cur === 'EN' ? 'বাংলা' : 'EN'))}
             className="hidden items-center gap-1 rounded-full border border-[#1a4731]/20 bg-white px-3 py-1.5 text-xs font-semibold text-[#1a4731] sm:inline-flex"
           >
             <Languages size={14} />
             {lang}
-          </button>
+          </button> */}
 
           <Link
             to="/wishlist"

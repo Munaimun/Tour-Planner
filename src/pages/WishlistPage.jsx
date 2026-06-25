@@ -1,10 +1,11 @@
 import { Heart, Trash2 } from 'lucide-react'
 import { Link } from 'react-router-dom'
+import { useDestinations } from '../contexts/DestinationsContext'
 import { useWishlist } from '../contexts/WishlistContext'
-import destinations from '../data/destinations.json'
 
 export default function WishlistPage() {
   const { wishlist, removeWish, clearWish } = useWishlist()
+  const { destinations } = useDestinations()
   const items = wishlist.map((slug) => destinations.find((d) => d.slug === slug)).filter(Boolean)
 
   return (

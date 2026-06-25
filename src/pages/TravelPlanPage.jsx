@@ -1,11 +1,12 @@
 /* eslint-disable react/prop-types */
 import { ArrowLeft, CalendarDays, Clock3, MapPin, Star } from 'lucide-react'
 import { Link, Navigate, useParams } from 'react-router-dom'
-import destinations from '../data/destinations.json'
+import { useDestinations } from '../contexts/DestinationsContext'
 
 export default function TravelPlanPage() {
   const { slug, packageSlug } = useParams()
-  const destination = destinations.find((item) => item.slug === slug)
+  const { getDestination } = useDestinations()
+  const destination = getDestination(slug)
   const selectedPackage = destination?.packages.find((item) => item.slug === packageSlug)
 
   if (!destination || !selectedPackage) {
@@ -16,8 +17,16 @@ export default function TravelPlanPage() {
     ? selectedPackage.days
     : generateDays(destination, selectedPackage.slug)
 
-  const totalPlaces = new Set(itinerary.flatMap((day) => day.slots.map((slot) => slot.place.name))).size
-  const totalCost = itinerary.reduce((sum, day) => sum + parseCost(day.cost), 0)
+  const resolvedItinerary = itinerary.map((day) => ({
+    ...day,
+    slots: day.slots.map((slot) => ({
+      ...slot,
+      place: resolvePlace(slot),
+    })),
+  }))
+
+  const totalPlaces = new Set(resolvedItinerary.flatMap((day) => day.slots.map((slot) => slot.place.name))).size
+  const totalCost = resolvedItinerary.reduce((sum, day) => sum + parseCost(day.cost), 0)
 
   return (
     <div className="mx-auto grid w-[min(1180px,calc(100%-1rem))] gap-6 py-10 lg:grid-cols-[290px_1fr]">
@@ -34,7 +43,7 @@ export default function TravelPlanPage() {
         </div>
 
         <div className="mt-4 grid gap-2">
-          {itinerary.map((_, idx) => (
+          {resolvedItinerary.map((_, idx) => (
             <a
               key={idx}
               href={`#day-${idx + 1}`}
@@ -67,7 +76,7 @@ export default function TravelPlanPage() {
         </div>
 
         <div className="space-y-5">
-          {itinerary.map((day, idx) => (
+          {resolvedItinerary.map((day, idx) => (
             <article key={day.title} id={`day-${idx + 1}`} className="relative pl-6">
               <span className="absolute left-0 top-6 h-full w-px bg-[#c9a84c]/70" />
               <span className="absolute left-[-5px] top-8 h-3 w-3 rounded-full bg-[#c9a84c]" />
@@ -139,6 +148,17 @@ function InfoPill({ icon, text }) {
 function parseCost(cost) {
   const value = cost.replace(/[^0-9]/g, '')
   return value ? Number(value) : 0
+}
+
+function resolvePlace(slot) {
+  if (!slot.placeOverrides) {
+    return slot.place
+  }
+
+  return {
+    ...slot.place,
+    ...slot.placeOverrides,
+  }
 }
 
 function generateDays(destination, packageSlug) {
